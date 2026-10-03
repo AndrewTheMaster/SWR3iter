@@ -11,6 +11,102 @@
 using namespace NCB;
 
 
+namespace {
+    // Counters kept next to the per-thread registry so diagnostics can report
+    // growth without exposing the private cache type.
+    struct TRegistryStats {
+        size_t Entries = 0;
+        size_t GroupingHits = 0;
+        size_t GroupingMisses = 0;
+    };
+    TRegistryStats& GetRegistryStats() {
+        static thread_local TRegistryStats stats;
+        return stats;
+    }
+}
+
+size_t TStaticCtrProvider::GetCachedProviderCountForDiagnostics() {
+    return GetRegistryStats().Entries;
+}
+
+void TStaticCtrProvider::GetGroupingCacheStatsForDiagnostics(
+    size_t* hits, size_t* misses) {
+    const auto& stats = GetRegistryStats();
+    if (hits != nullptr) {
+        *hits = stats.GroupingHits;
+    }
+    if (misses != nullptr) {
+        *misses = stats.GroupingMisses;
+    }
+}
+
+TStaticCtrProvider::TCtrGroupingCache& TStaticCtrProvider::GetCacheForThisProvider() {
+    struct TEntry {
+        const TStaticCtrProvider* Owner;
+        TCtrGroupingCache Cache;
+    };
+    // Per thread, so parallel requests against a shared provider never touch the
+    // same cache object. An entry left by a destroyed provider is harmless:
+    // every use revalidates the array identity and the projection snapshot, so a
+    // recycled address recomputes instead of reusing.
+    static thread_local TVector<TEntry> caches;
+    constexpr size_t kMaxCachedProviders = 8;
+    for (auto& entry : caches) {
+        if (entry.Owner == this) {
+            return entry.Cache;
+        }
+    }
+    if (caches.size() >= kMaxCachedProviders) {
+        caches.clear();
+    }
+    caches.push_back(TEntry{this, TCtrGroupingCache{}});
+    GetRegistryStats().Entries = caches.size();
+    return caches.back().Cache;
+}
+
+bool TStaticCtrProvider::IsCacheValid(const TCtrGroupingCache& cache,
+                                      const TConstArrayRef<TModelCtr>& neededCtrs) {
+    if (cache.Source != neededCtrs.data() || cache.SourceSize != neededCtrs.size()) {
+        return false;
+    }
+    if (cache.Compressed.empty() || cache.ProjectionSnapshot.empty()) {
+        return false;
+    }
+    if (cache.ProjectionSnapshot.size() != neededCtrs.size()) {
+        return false;
+    }
+    // The grouping and every pointer inside it are determined by the projection
+    // sequence alone, so an element-wise match against the snapshot is exactly
+    // the condition under which the stored grouping equals what a recomputation
+    // would produce. Comparing against Source would be vacuous: the stored
+    // pointers ARE elements of Source.
+    for (size_t i = 0; i < neededCtrs.size(); ++i) {
+        if (!(cache.ProjectionSnapshot[i] == neededCtrs[i].Base.Projection)) {
+            return false;
+        }
+    }
+    return true;
+}
+
+const TVector<NCB::TCompressedModelCtr>& TStaticCtrProvider::GetCachedGrouping(
+    const TConstArrayRef<TModelCtr>& neededCtrs) {
+    auto& cache = GetCacheForThisProvider();
+    if (!IsCacheValid(cache, neededCtrs)) {
+        ++GetRegistryStats().GroupingMisses;
+        cache.Invalidate();
+        cache.Source = neededCtrs.data();
+        cache.SourceSize = neededCtrs.size();
+        cache.Compressed = NCB::CompressModelCtrs(neededCtrs);
+        cache.ProjectionSnapshot.reserve(neededCtrs.size());
+        for (const auto& ctr : neededCtrs) {
+            cache.ProjectionSnapshot.push_back(ctr.Base.Projection);
+        }
+    } else {
+        ++GetRegistryStats().GroupingHits;
+    }
+    return cache.Compressed;
+}
+
 void TStaticCtrProvider::CalcCtrs(const TConstArrayRef<TModelCtr> neededCtrs,
                                   const TConstArrayRef<ui8> binarizedFeatures,
                                   const TConstArrayRef<ui32> hashedCatFeatures,
@@ -19,7 +115,7 @@ void TStaticCtrProvider::CalcCtrs(const TConstArrayRef<TModelCtr> neededCtrs,
     if (neededCtrs.empty()) {
         return;
     }
-    auto compressedModelCtrs = NCB::CompressModelCtrs(neededCtrs);
+    const auto& compressedModelCtrs = GetCachedGrouping(neededCtrs);
     size_t samplesCount = docCount;
     TVector<ui64> ctrHashes(samplesCount);
     TVector<ui64> buckets(samplesCount);
@@ -144,6 +240,7 @@ bool TStaticCtrProvider::HasNeededCtrs(TConstArrayRef<TModelCtr> neededCtrs) con
 void TStaticCtrProvider::SetupBinFeatureIndexes(const TConstArrayRef<TFloatFeature> floatFeatures,
                                                 const TConstArrayRef<TOneHotFeature> oheFeatures,
                                                 const TConstArrayRef<TCatFeature> catFeatures) {
+    GetCacheForThisProvider().Invalidate();
     ui32 currentIndex = 0;
     FloatFeatureIndexes.clear();
     for (const auto& floatFeature : floatFeatures) {
