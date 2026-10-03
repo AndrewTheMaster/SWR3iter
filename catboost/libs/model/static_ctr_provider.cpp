@@ -41,13 +41,19 @@ void TStaticCtrProvider::CalcCtrs(const TConstArrayRef<TModelCtr> neededCtrs,
             binarizedIndexes.push_back(OneHotFeatureIndexes.at(feature));
         }
         CalcHashes(binarizedFeatures, hashedCatFeatures, transposedCatFeatureIndexes, binarizedIndexes, docCount, &ctrHashes);
+        const TCtrValueTable* previousCtrTable = nullptr;
         for (const auto& ctr: compressedModelCtrs[idx].ModelCtrs) {
             auto& learnCtr = CtrData.LearnCtrs.at(ctr->Base);
-            auto hashIndexResolver = learnCtr.GetIndexHashViewer();
             const ECtrType ctrType = ctr->Base.CtrType;
             auto ptrBuckets = buckets.data();
-            for (size_t docId = 0; docId < samplesCount; ++docId) {
-                ptrBuckets[docId] = hashIndexResolver.GetIndex(ctrHashes[docId]);
+            // Different priors/target borders can share the same immutable table.
+            // Hashes are fixed for this projection, so bucket indices are reusable.
+            if (previousCtrTable != &learnCtr) {
+                auto hashIndexResolver = learnCtr.GetIndexHashViewer();
+                for (size_t docId = 0; docId < samplesCount; ++docId) {
+                    ptrBuckets[docId] = hashIndexResolver.GetIndex(ctrHashes[docId]);
+                }
+                previousCtrTable = &learnCtr;
             }
             if (ctrType == ECtrType::BinarizedTargetMeanValue || ctrType == ECtrType::FloatTargetMeanValue) {
                 const auto emptyVal = ctr->Calc(0.f, 0.f);
