@@ -1,0 +1,206 @@
+{
+ "created_at": "2026-10-26T13:44:47+03:00",
+ "download_budget_bytes": 53687091200,
+ "resources_before": {
+  "captured_at": "2026-10-26T13:44:47+03:00",
+  "disk_total_bytes": 494384795648,
+  "disk_free_bytes": 134316675072,
+  "disk_free_gb": 134.32,
+  "available_memory_bytes": 8424456192,
+  "available_memory_gb": 8.42,
+  "total_memory_bytes": 25769803776,
+  "logical_cpus": 14
+ },
+ "sources": {
+  "yoochoose": {
+   "dir": "data/confirmatory/raw/yoochoose",
+   "files": [
+    {
+     "status": "existing",
+     "path": "data/confirmatory/raw/yoochoose/yoochoose-clicks.dat.zip",
+     "bytes": 342577078,
+     "sha256": "0b7fe252a8fb9327d7063a43f0e993bcdaf130a81c52a188ccd19e99f9c9d839",
+     "md5": "39edd06da5910dd0d156eaab9b963a99",
+     "url": "https://zenodo.org/records/7412233/files/yoochoose-clicks.dat.zip?download=1",
+     "known_md5": "39edd06da5910dd0d156eaab9b963a99",
+     "dataset": "yoochoose",
+     "key": "clicks"
+    },
+    {
+     "status": "existing",
+     "path": "data/confirmatory/raw/yoochoose/yoochoose-buys.dat.zip",
+     "bytes": 12314131,
+     "sha256": "2504a62be32eac43663b64613376da8ae0e8dee98e2fa8a167cf68188c128de8",
+     "md5": "b50b2e9f505ca3854de504f4e6fe96e9",
+     "url": "https://zenodo.org/records/7412233/files/yoochoose-buys.dat.zip?download=1",
+     "known_md5": "b50b2e9f505ca3854de504f4e6fe96e9",
+     "dataset": "yoochoose",
+     "key": "buys"
+    }
+   ]
+  },
+  "nyc_tlc": {
+   "dir": "data/confirmatory/raw/nyc_tlc",
+   "files": [
+    {
+     "status": "existing",
+     "path": "data/confirmatory/raw/nyc_tlc/yellow_tripdata_2025-01.parquet",
+     "bytes": 59158238,
+     "sha256": "9af277e4c0d3f9deb30644da822981e1e7df6af58313170fd3aa8a474485488a",
+     "md5": "c403f3bc3a64a1405e1a39817bc7e414",
+     "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-01.parquet",
+     "known_md5": null,
+     "dataset": "nyc_tlc",
+     "key": "2025-01"
+    },
+    {
+     "status": "existing",
+     "path": "data/confirmatory/raw/nyc_tlc/yellow_tripdata_2025-02.parquet",
+     "bytes": 60343086,
+     "sha256": "037cba555a73663f3a51a2c27816e40e3feb364769942bdf122b9da31e377bd3",
+     "md5": "0f61bd9b136ad698c6d9094db2fa75e0",
+     "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-02.parquet",
+     "known_md5": null,
+     "dataset": "nyc_tlc",
+     "key": "2025-02"
+    },
+    {
+     "status": "existing",
+     "path": "data/confirmatory/raw/nyc_tlc/yellow_tripdata_2025-03.parquet",
+     "bytes": 69964745,
+     "sha256": "20c4b77cce457b7cfdae77c5069ca7dc91c167f876a41467f4502ab69487a186",
+     "md5": "70f84a035ad186f8d9d50c26015b0d48",
+     "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-03.parquet",
+     "known_md5": null,
+     "dataset": "nyc_tlc",
+     "key": "2025-03"
+    }
+   ]
+  },
+  "bank_marketing": {
+   "dir": "data/confirmatory/raw/bank_marketing",
+   "files": [
+    {
+     "status": "existing",
+     "path": "data/confirmatory/raw/bank_marketing/bank+marketing.zip",
+     "bytes": 1023843,
+     "sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4",
+     "md5": "3a3c6c4189975ea1f3040dbd60ad106c",
+     "url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+     "known_md5": null,
+     "dataset": "bank_marketing",
+     "key": "archive"
+    }
+   ]
+  }
+ },
+ "downloads": {
+  "yoochoose/yoochoose-clicks.dat.zip": {
+   "status": "existing",
+   "path": "data/confirmatory/raw/yoochoose/yoochoose-clicks.dat.zip",
+   "bytes": 342577078,
+   "sha256": "0b7fe252a8fb9327d7063a43f0e993bcdaf130a81c52a188ccd19e99f9c9d839",
+   "md5": "39edd06da5910dd0d156eaab9b963a99",
+   "url": "https://zenodo.org/records/7412233/files/yoochoose-clicks.dat.zip?download=1",
+   "known_md5": "39edd06da5910dd0d156eaab9b963a99",
+   "dataset": "yoochoose",
+   "key": "clicks"
+  },
+  "yoochoose/yoochoose-buys.dat.zip": {
+   "status": "existing",
+   "path": "data/confirmatory/raw/yoochoose/yoochoose-buys.dat.zip",
+   "bytes": 12314131,
+   "sha256": "2504a62be32eac43663b64613376da8ae0e8dee98e2fa8a167cf68188c128de8",
+   "md5": "b50b2e9f505ca3854de504f4e6fe96e9",
+   "url": "https://zenodo.org/records/7412233/files/yoochoose-buys.dat.zip?download=1",
+   "known_md5": "b50b2e9f505ca3854de504f4e6fe96e9",
+   "dataset": "yoochoose",
+   "key": "buys"
+  },
+  "nyc_tlc/yellow_tripdata_2025-01.parquet": {
+   "status": "existing",
+   "path": "data/confirmatory/raw/nyc_tlc/yellow_tripdata_2025-01.parquet",
+   "bytes": 59158238,
+   "sha256": "9af277e4c0d3f9deb30644da822981e1e7df6af58313170fd3aa8a474485488a",
+   "md5": "c403f3bc3a64a1405e1a39817bc7e414",
+   "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-01.parquet",
+   "known_md5": null,
+   "dataset": "nyc_tlc",
+   "key": "2025-01"
+  },
+  "nyc_tlc/yellow_tripdata_2025-02.parquet": {
+   "status": "existing",
+   "path": "data/confirmatory/raw/nyc_tlc/yellow_tripdata_2025-02.parquet",
+   "bytes": 60343086,
+   "sha256": "037cba555a73663f3a51a2c27816e40e3feb364769942bdf122b9da31e377bd3",
+   "md5": "0f61bd9b136ad698c6d9094db2fa75e0",
+   "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-02.parquet",
+   "known_md5": null,
+   "dataset": "nyc_tlc",
+   "key": "2025-02"
+  },
+  "nyc_tlc/yellow_tripdata_2025-03.parquet": {
+   "status": "existing",
+   "path": "data/confirmatory/raw/nyc_tlc/yellow_tripdata_2025-03.parquet",
+   "bytes": 69964745,
+   "sha256": "20c4b77cce457b7cfdae77c5069ca7dc91c167f876a41467f4502ab69487a186",
+   "md5": "70f84a035ad186f8d9d50c26015b0d48",
+   "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-03.parquet",
+   "known_md5": null,
+   "dataset": "nyc_tlc",
+   "key": "2025-03"
+  },
+  "bank_marketing/bank+marketing.zip": {
+   "status": "existing",
+   "path": "data/confirmatory/raw/bank_marketing/bank+marketing.zip",
+   "bytes": 1023843,
+   "sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4",
+   "md5": "3a3c6c4189975ea1f3040dbd60ad106c",
+   "url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+   "known_md5": null,
+   "dataset": "bank_marketing",
+   "key": "archive"
+  }
+ },
+ "extractions": {
+  "yoochoose-clicks.dat": {
+   "status": "existing",
+   "path": "data/confirmatory/raw/yoochoose/extracted/yoochoose-clicks.dat",
+   "bytes": 1486798186,
+   "sha256": "0deaf041a4f60955928fe8430e525a1dbf38e9013c7482420973e4aa492fa762",
+   "md5": "623769438592d778b45ba7631d2b1e1d"
+  },
+  "yoochoose-buys.dat": {
+   "status": "existing",
+   "path": "data/confirmatory/raw/yoochoose/extracted/yoochoose-buys.dat",
+   "bytes": 55583744,
+   "sha256": "0c5c0f5084da2ff703c15d7d72298136e4243806adc3e29eccfa920ce3e24e23",
+   "md5": "b20ab265922bdfcbc72bce02e53ab808"
+  },
+  "bank-full.csv": {
+   "status": "extracted",
+   "path": "data/confirmatory/raw/bank_marketing/extracted/bank-full.csv",
+   "bytes": 4610348,
+   "sha256": "d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d",
+   "md5": "e6b0ca77f3f200ec5428e04dd104da53",
+   "nested_archive": {
+    "path": "data/confirmatory/raw/bank_marketing/extracted/bank.zip",
+    "bytes": 579043,
+    "sha256": "99d7e8eb12401ed278b793984423915411ea8df099e1795f9fefe254f513fe5e"
+   }
+  }
+ },
+ "failures": [],
+ "total_downloaded_bytes": 545381121,
+ "resources_after": {
+  "captured_at": "2026-10-26T13:44:50+03:00",
+  "disk_total_bytes": 494384795648,
+  "disk_free_bytes": 134311464960,
+  "disk_free_gb": 134.31,
+  "available_memory_bytes": 8502099968,
+  "available_memory_gb": 8.5,
+  "total_memory_bytes": 25769803776,
+  "logical_cpus": 14
+ },
+ "all_required_files_present": true
+}

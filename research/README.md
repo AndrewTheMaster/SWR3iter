@@ -32,11 +32,36 @@ successful test lines). Hash agreement is empirical evidence, not a proof of
 bitwise identity or absence of all races; ThreadSanitizer was not rerun on
 this revision.
 
+## Independent three-dataset confirmatory test (2026-10-26)
+
+A separate protocol, frozen before download and training, used CatBoost
+v1.2.10 with the same two code changes. It measured p95 of paired
+`C/A - 1` on a ready Pool, batch 4096, two threads, with 20 fresh paired
+sessions per model. The three CTR models were predeclared; Holm correction
+covers only them.
+
+| Held-out model/data | p95 C/A | 95% interval | Holm p | Faster pairs |
+|---|---:|---|---:|---:|
+| YOOCHOOSE RecSys 2015 | **−7.83%** | [−8.02%, −7.66%] | 0.00015 | 20/20 |
+| NYC TLC yellow taxi 2025 | **−9.24%** | [−12.86%, −4.60%] | 0.00015 | 18/20 |
+| UCI Bank Marketing | **−10.85%** | [−12.00%, −9.07%] | 0.00015 | 20/20 |
+
+The no-CTR controls were near zero with intervals crossing zero. Full-holdout
+prediction hashes matched for all 6/6 models before timing. This is a distinct
+series on a different CatBoost revision, datasets and workload; its numbers are
+not pooled with the Amazon/KDD/Criteo series above and do not establish a
+universal percentage. The −18.22% Amazon figure belongs to the earlier
+v1.2.10 experiment and is not a result of this confirmatory test. The compact
+[protocol, figure, report, and paired p95 data](confirmatory-2026-10-26/README.md)
+are included here; original data and per-call timings remain local for reruns.
+
 ## Earlier v1.2.10 experiment
 
 The independent earlier series on CatBoost `b1bd2a6d7721` found −18.22%
 Amazon, −5.53% KDD and −4.77% Criteo in the same headline workload. It is
 shown separately because changing the CatBoost revision changes the baseline.
+The −18.22% Amazon number is historical and is not the new three-dataset
+confirmatory result.
 
 ![Historical paired latency changes](historical-v1.2.10.png)
 
