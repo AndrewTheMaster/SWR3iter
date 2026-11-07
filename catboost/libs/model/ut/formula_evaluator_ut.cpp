@@ -3,6 +3,7 @@
 #include <catboost/libs/data/data_provider_builders.h>
 #include <catboost/libs/model/cpu/evaluator.h>
 #include <catboost/libs/model/model.h>
+#include <catboost/libs/model/static_ctr_provider.h>
 #include <catboost/libs/train_lib/train_model.h>
 #include <catboost/private/libs/text_features/ut/lib/text_features_data.h>
 
@@ -12,6 +13,24 @@
 
 using namespace NCB;
 using namespace NCB::NModelEvaluation;
+
+Y_UNIT_TEST_SUITE(TStaticCtrProviderCache) {
+    Y_UNIT_TEST(RegistryEvictsOneProviderAtCapacity) {
+        // Distinct live providers force misses even if earlier tests left
+        // entries in this thread's registry.
+        TStaticCtrProvider providers[32];
+        bool reachedCapacity = false;
+        for (auto& provider : providers) {
+            provider.SetupBinFeatureIndexes({}, {}, {});
+            const auto count = TStaticCtrProvider::GetCachedProviderCountForDiagnostics();
+            if (reachedCapacity) {
+                UNIT_ASSERT_VALUES_EQUAL(count, 8);
+            }
+            reachedCapacity |= count == 8;
+        }
+        UNIT_ASSERT(reachedCapacity);
+    }
+}
 
 const TVector<TVector<float>> DATA = {
     {0.f, 0.f, 0.f},

@@ -57,7 +57,8 @@ TStaticCtrProvider::TCtrGroupingCache& TStaticCtrProvider::GetCacheForThisProvid
         }
     }
     if (caches.size() >= kMaxCachedProviders) {
-        caches.clear();
+        // Evict one oldest entry instead of discarding seven still-usable ones.
+        caches.erase(caches.begin());
     }
     caches.push_back(TEntry{this, TCtrGroupingCache{}});
     GetRegistryStats().Entries = caches.size();
