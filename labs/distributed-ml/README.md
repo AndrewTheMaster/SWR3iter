@@ -26,7 +26,7 @@ results/stage2/           Spark-обучение с CTR (Amazon 1/2/4, Criteo 2)
 results/stage2_stock/     штатный распределённый режим CatBoost: records, summary.tsv, логи
 results/stage3/           сводки измерений инференса и CTR-структура моделей
 figures/milestones/       графики для отчёта
-reports/                  итоговый PDF
+reports/                  PDF отчётов по майлстоунам 1–3
 evidence/                 манифест и архив сырых сессий этапа 3
 ```
 
