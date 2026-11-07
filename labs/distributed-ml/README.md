@@ -2,7 +2,7 @@
 
 Три майлстоуна: базовая линия CatBoost с CTR, распределённое обучение (штатный режим CatBoost и CatBoost for Apache Spark), измерение задержек инференса полученных моделей.
 
-Итоговый отчёт (PDF): [reports/distributed-ml-milestones.pdf](reports/distributed-ml-milestones.pdf)
+Отчёты по майлстоунам (PDF): [M1](reports/Distributed_ML_M1_baseline_2026-11-07.pdf), [M2](reports/Distributed_ML_M2_distributed_training_2026-11-07.pdf), [M3](reports/Distributed_ML_M3_inference_2026-11-07.pdf)
 
 ## Майлстоуны
 
