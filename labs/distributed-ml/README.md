@@ -8,8 +8,8 @@
 
 | Майлстоун | Что показано | Где лежит |
 |---|---|---|
-| **M1. Базовая линия и пробный запуск** | качество, CTR-структура, время fit и predict на Amazon, KDD, Criteo; совпадение предсказаний исходной и оптимизированной версии; штатный distributed-запуск с 2 worker-процессами: без CTR успешен, с CTR падает (`TProjection`) | `results/stage1/`, `results/stage1/predict_singlehost/`, логи падений в `evidence/stock-distributed-logs.tar.gz` |
-| **M2. Распределённое обучение** | 1/2/4 worker-процесса: штатный режим на моделях без CTR (время, качество, накладные расходы старта); Spark с CTR на Amazon (1/2/4) и Criteo (2) | `results/stage2_stock/summary.tsv`, `figures/milestones/stock_distributed_workers.png`, `results/stage2/`, `figures/milestones/amazon_ctr_training_workers.png` |
+| **M1. Базовая линия и пробный запуск** | качество, CTR-структура, время fit и predict на Amazon, KDD, Criteo; совпадение предсказаний исходной и оптимизированной версии; штатный distributed-запуск с 2 worker-процессами: без CTR успешен, с CTR падает (`TProjection`) | `results/stage1/`, `results/stage1/predict_singlehost/`, ошибка падения в `results/stage2_stock/records.json` (поле `failure_tail`) |
+| **M2. Распределённое обучение** | 1/2/4 worker-процесса: штатный режим на моделях без CTR (время, качество, накладные расходы старта); Spark с CTR на Amazon (1/2/4) и Criteo (2) | `results/stage2_stock/summary.tsv`, `results/stage2/`, `figures/milestones/` |
 | **M3. Инференс** | CTR-структура пяти распределённых моделей; парное сравнение исходного и оптимизированного `predict` (p50/p90/p95/p99), совпадение предсказаний на полном holdout | `results/stage3/ctr_structure/structure.json`, `results/stage3/distributed_ctr_quantiles_20261107/`, `figures/milestones/ctr_*` |
 
 **Главный результат M3.** В восьми CTR-ячейках p95 оптимизированного CPU-инференса ниже исходного в 9 из 9 парных сессий, 95% интервалы не включают ноль. В двух ячейках без CTR (контроль) интервалы включают ноль. Измерение касается `predict` на готовом Pool, а не сетевого сервиса. Бинарники сравнения собраны до отдельного изменения FIFO-вытеснения кеша.
@@ -21,14 +21,13 @@
 ```
 data/manifest.json        происхождение и SHA-256 датасетов (сами данные не в git)
 scripts/                  подготовка данных, обучение, измерения, сводки и графики
-results/stage1/           модели и структура базовой линии, парные predict-записи
-results/stage2/           Spark-обучение с CTR (Amazon 1/2/4, Criteo 2)
-results/stage2_stock/     штатный распределённый режим CatBoost: records.json, summary.tsv
-results/stage3/           сводки измерений инференса и CTR-структура моделей
-figures/milestones/       графики для отчёта
 reports/                  PDF отчётов по майлстоунам 1–3
-evidence/                 сырые сессии этапа 3; логи штатных запусков и записи этапа 1 (архивы)
+evidence/results.tar.gz   результаты (JSON, TSV, CTR-структура) и графики; распаковать перед запуском скриптов
+evidence/raw-sessions.tar.gz  сырые сессии измерений этапа 3
+evidence/raw-manifest.json    перечень архива сырых сессий
 ```
+
+Логи запусков в репозиторий не входят. Ошибки штатных распределённых запусков сохранены в `results/stage2_stock/records.json` (поле `failure_tail`).
 
 ## Соглашение о путях
 
@@ -53,12 +52,28 @@ evidence/                 сырые сессии этапа 3; логи шта�
 
 ## Запуск
 
+Сначала распаковать результаты:
+
+```sh
+tar -xzf evidence/results.tar.gz
+```
+
 Сводка и график штатного распределённого режима (по сохранённым записям, без моделей и данных):
 
 ```sh
 python3 scripts/summarize_stock_distributed.py
 python3 scripts/plot_stock_distributed.py
 ```
+
+Пересчёт квантильной сводки M3 без моделей и датасетов:
+
+```sh
+tar -xzf evidence/raw-sessions.tar.gz
+python3 scripts/run_distributed_ctr_quantiles.py --summarize-only
+python3 scripts/plot_distributed_ctr_quantiles.py
+```
+
+Архив сырых сессий содержит 180 записей запусков (`session_N_{stock,production}.json`) и 180 файлов задержек по 1000 вызовов (`*.latencies.json`).
 
 Обучение на Spark:
 
@@ -68,18 +83,6 @@ export CTR_SPARK_DATA_ROOT=/path/without/spaces/data
 python3 scripts/spark_ctr_train.py --workers 2 --out /path/to/new/amazon-2w
 python3 scripts/spark_criteo_ctr_train.py --workers 2 --cat-count 4 --out /path/to/new/criteo-2w
 ```
-
-Пересчёт сохранённой квантильной сводки не требует моделей и датасетов:
-
-```sh
-tar -xzf evidence/raw-sessions.tar.gz
-python3 scripts/run_distributed_ctr_quantiles.py --summarize-only
-python3 scripts/plot_distributed_ctr_quantiles.py
-```
-
-Логи штатных распределённых запусков и покомпонентные записи этапа 1 упакованы в `evidence/stock-distributed-logs.tar.gz` и `evidence/stage1-run-records.tar.gz`; `records.json` ссылается на пути внутри этих архивов.
-
-Архив сырых сессий содержит 180 записей запусков (`session_N_{stock,production}.json`) и 180 файлов задержек по 1000 вызовов (`*.latencies.json`).
 
 Новые измерения этапа 3 требуют `CTR_LAB_INPUT_ROOT` и `CTR_BENCH_BIN_DIR`.
 
