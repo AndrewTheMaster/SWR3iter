@@ -6,7 +6,7 @@
 
 | Этап | Код | Результаты |
 |---|---|---|
-| 1. Базовая линия | `scripts/prepare_data.py`, `run_training.py`, `structure.py`, `prepare_numeric.py`, `prepare_criteo_x1.py` | `results/stage1/` |
+| 1. Базовая линия | `scripts/prepare_data.py`, `run_training.py`, `structure.py`, `prepare_numeric.py`, `prepare_criteo_x1.py` | `results/stage1/` (модели и структура); `results/stage1/predict_singlehost/records.json` (парные изменения predict, Таблица 1 отчёта) |
 | 2. Обучение CTR | `scripts/spark_ctr_train.py`, `spark_criteo_ctr_train.py` | `results/stage2/`: Amazon с 1/2/4 worker-процессами; Criteo с 2 workers на 10 млн строк |
 | 3. Инференс | `scripts/run_distributed_ctr_quantiles.py`, `plot_distributed_ctr_quantiles.py` | `results/stage3/`: хеши предсказаний, p50/p90/p95/p99, 95% интервалы; сырые сессии в [evidence/raw-sessions.tar.gz](evidence/raw-sessions.tar.gz) |
 
@@ -29,7 +29,7 @@ evidence/                 манифест и архив сырых сессий
 
 ## Окружение
 
-- Java 17, Python 3 с зависимостями из `requirements.txt` (CatBoost 1.2.10, PySpark 3.5.0)
+- Java 17, Python 3 с зависимостями из `requirements.txt` (CatBoost 1.2.10, PySpark 3.5.0). PySpark 3.5.1 с CatBoost Spark 1.2.10 не работает (`NoSuchMethodError` в `CSVOptions`), поэтому версия зафиксирована.
 - Датасеты и крупные модели (`*.cbm`, `*.dsv`, `*.tsv`) в git не хранятся; их SHA-256 записаны в `data/manifest.json` и `inputs.json`
 - Для локального Spark `local-cluster` worker-ы являются отдельными процессами одной машины
 
