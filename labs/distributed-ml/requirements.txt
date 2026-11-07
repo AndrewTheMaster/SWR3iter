@@ -1,0 +1,7 @@
+catboost==1.2.10
+ijson
+matplotlib==3.9.4
+numpy==2.0.2
+pandas
+pyspark==3.5.0
+scipy

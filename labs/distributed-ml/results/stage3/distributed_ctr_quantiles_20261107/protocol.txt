@@ -1,0 +1,39 @@
+# Paired latency quantiles for distributed-trained CTR models
+
+Fixed before the percentile measurements on 2026-11-07. The matrix has five
+models: Amazon Spark CTR trained with 1, 2 and 4 workers; Criteo_x1 Spark CTR
+trained with 2 workers on 10 million rows; and the existing Amazon no-CTR
+distributed model as a negative control. Do not add or remove cells based on
+their observed effect.
+
+- Predictor: two pinned CatBoost v1.2.10 harness binaries, stock and production
+  (`SRW2iter/results/local/percentile-latency-20261026/bin/`). Their hashes
+  are recorded in `inputs.json`. Production includes bucket reuse and the
+  grouping cache; it predates the separate FIFO eviction change in SWR3iter.
+- Workload: `predict` on a ready Pool, two threads, batches 128 and 4096.
+  Each process makes 50 warm-up calls followed by 1000 timed calls; `--raw-out`
+  preserves every call latency in execution order. Pool construction is not
+  included in these latencies.
+- Correctness gate: before timing each model, run both arms over its entire
+  holdout and require equal block hashes, full-vector hashes, chunk hashes,
+  row counts and successful exit codes.
+- Nine paired sessions per model and batch, each arm in a fresh process.
+  Odd sessions run stock first, even sessions production first. Do not discard
+  slow sessions after seeing results.
+- For each session and arm, compute p50, p90, p95 and p99 from its 1000 timed
+  calls using the same linear percentile definition as NumPy. Compare arms
+  within the session as `100 * (production / stock - 1)` for each quantile.
+  The headline is the **median of nine paired p95 changes**. Also report
+  p50/p90/p99; p99 is exploratory because it uses roughly ten tail calls per
+  process. Do not use a ratio of pooled percentiles as the paired effect.
+- For each quantile, bootstrap the median of the nine complete paired-session
+  changes with 20,000 resamples and seed 20261107. Mark a cell as distinct
+  from zero only if its interval excludes zero. Report the 9/9 sign count.
+- No aggregate percentage across different models. Training time has one run
+  per worker count and is descriptive, not an inferential speedup result.
+
+The current machine is macOS arm64, 24 GiB RAM. Background load is not
+controlled. The Amazon models have 20 trees at depth 4 and the Criteo Spark
+model has 20 trees at depth 4 with C1–C4 of 26 categorical features. Thus
+the percentile experiment tests these specific models; it does not estimate
+the effect of the FIFO eviction or the full 26-category Criteo model.

@@ -1,0 +1,10 @@
+data/*
+!data/manifest.json
+results/stage3/distributed_ctr_quantiles_20261107/raw/
+results/stage3/distributed_ctr_quantiles_20261107/report.md
+*.cbm
+*.dsv
+*.tsv
+*.log
+__pycache__/
+*.pyc
