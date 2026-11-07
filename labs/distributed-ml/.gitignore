@@ -11,5 +11,4 @@ __pycache__/
 *.pyc
 
 # stock distributed evidence: keep logs and the TSV summary
-!results/stage2_stock/**/*.log
 !results/stage2_stock/summary.tsv

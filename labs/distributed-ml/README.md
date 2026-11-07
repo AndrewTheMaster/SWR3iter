@@ -8,7 +8,7 @@
 
 | Майлстоун | Что показано | Где лежит |
 |---|---|---|
-| **M1. Базовая линия и пробный запуск** | качество, CTR-структура, время fit и predict на Amazon, KDD, Criteo; совпадение предсказаний исходной и оптимизированной версии; штатный distributed-запуск с 2 worker-процессами: без CTR успешен, с CTR падает (`TProjection`) | `results/stage1/`, `results/stage1/predict_singlehost/`, `results/stage2_stock/*_ctr_dist2_failure*/` |
+| **M1. Базовая линия и пробный запуск** | качество, CTR-структура, время fit и predict на Amazon, KDD, Criteo; совпадение предсказаний исходной и оптимизированной версии; штатный distributed-запуск с 2 worker-процессами: без CTR успешен, с CTR падает (`TProjection`) | `results/stage1/`, `results/stage1/predict_singlehost/`, логи падений в `evidence/stock-distributed-logs.tar.gz` |
 | **M2. Распределённое обучение** | 1/2/4 worker-процесса: штатный режим на моделях без CTR (время, качество, накладные расходы старта); Spark с CTR на Amazon (1/2/4) и Criteo (2) | `results/stage2_stock/summary.tsv`, `figures/milestones/stock_distributed_workers.png`, `results/stage2/`, `figures/milestones/amazon_ctr_training_workers.png` |
 | **M3. Инференс** | CTR-структура пяти распределённых моделей; парное сравнение исходного и оптимизированного `predict` (p50/p90/p95/p99), совпадение предсказаний на полном holdout | `results/stage3/ctr_structure/structure.json`, `results/stage3/distributed_ctr_quantiles_20261107/`, `figures/milestones/ctr_*` |
 
@@ -23,11 +23,11 @@ data/manifest.json        происхождение и SHA-256 датасето
 scripts/                  подготовка данных, обучение, измерения, сводки и графики
 results/stage1/           модели и структура базовой линии, парные predict-записи
 results/stage2/           Spark-обучение с CTR (Amazon 1/2/4, Criteo 2)
-results/stage2_stock/     штатный распределённый режим CatBoost: records, summary.tsv, логи
+results/stage2_stock/     штатный распределённый режим CatBoost: records.json, summary.tsv
 results/stage3/           сводки измерений инференса и CTR-структура моделей
 figures/milestones/       графики для отчёта
 reports/                  PDF отчётов по майлстоунам 1–3
-evidence/                 манифест и архив сырых сессий этапа 3
+evidence/                 сырые сессии этапа 3; логи штатных запусков и записи этапа 1 (архивы)
 ```
 
 ## Соглашение о путях
@@ -77,7 +77,9 @@ python3 scripts/run_distributed_ctr_quantiles.py --summarize-only
 python3 scripts/plot_distributed_ctr_quantiles.py
 ```
 
-Архив содержит 180 записей запусков (`session_N_{stock,production}.json`) и 180 файлов задержек по 1000 вызовов (`*.latencies.json`).
+Логи штатных распределённых запусков и покомпонентные записи этапа 1 упакованы в `evidence/stock-distributed-logs.tar.gz` и `evidence/stage1-run-records.tar.gz`; `records.json` ссылается на пути внутри этих архивов.
+
+Архив сырых сессий содержит 180 записей запусков (`session_N_{stock,production}.json`) и 180 файлов задержек по 1000 вызовов (`*.latencies.json`).
 
 Новые измерения этапа 3 требуют `CTR_LAB_INPUT_ROOT` и `CTR_BENCH_BIN_DIR`.
 
