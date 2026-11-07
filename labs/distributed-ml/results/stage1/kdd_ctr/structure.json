@@ -1,0 +1,31 @@
+[
+  {
+    "model": "model.cbm",
+    "model_path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/kdd_ctr/model.cbm",
+    "ctr_features": 386,
+    "ctr_tables": 335,
+    "projections": 144,
+    "ctr_per_projection": 2.6806,
+    "ctr_per_table": 1.1522,
+    "adjacent_same_table_pairs": 51,
+    "adjacent_same_table_fraction": 0.1325,
+    "runs_of_same_table": 39,
+    "longest_run": 3,
+    "mean_run_length": 2.3077,
+    "elements_without_cat_index": 322,
+    "complexity_histogram": {
+      "1": 218,
+      "2": 146,
+      "3": 21,
+      "4": 1
+    },
+    "ctr_types": {
+      "Borders": 325,
+      "Counter": 61
+    },
+    "trees": 200,
+    "categorical_features": 40,
+    "numeric_features": 190,
+    "model_bytes": 6811508
+  }
+]

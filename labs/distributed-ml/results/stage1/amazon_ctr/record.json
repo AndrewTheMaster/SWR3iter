@@ -1,0 +1,54 @@
+{
+  "name": "amazon_ctr",
+  "mode": "single",
+  "workers": 0,
+  "worker_threads": null,
+  "threads": 8,
+  "iterations": 200,
+  "extra_args": [],
+  "train_rows": 24577,
+  "holdout_rows": 8192,
+  "fit_wall_s": 1.705,
+  "startup_s": 0.0,
+  "total_wall_s": 1.705,
+  "exit_code": 0,
+  "model": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/amazon_ctr/model.cbm",
+  "model_sha256": "b33bc2fc42f99692d5d88c3dcb60728f6a08c0274c0445164189564dac137a94",
+  "model_bytes": 12194384,
+  "fit_log": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/amazon_ctr/fit.log",
+  "worker_logs": [],
+  "quality": {
+    "iter": 199.0,
+    "Logloss": 0.1357721589,
+    "AUC": 0.8836918722,
+    "eval_exit_code": 0
+  },
+  "structure": {
+    "model": "model.cbm",
+    "model_path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/amazon_ctr/model.cbm",
+    "ctr_features": 160,
+    "ctr_tables": 76,
+    "projections": 55,
+    "ctr_per_projection": 2.9091,
+    "ctr_per_table": 2.1053,
+    "adjacent_same_table_pairs": 84,
+    "adjacent_same_table_fraction": 0.5283,
+    "runs_of_same_table": 46,
+    "longest_run": 3,
+    "mean_run_length": 2.8261,
+    "elements_without_cat_index": 0,
+    "complexity_histogram": {
+      "1": 36,
+      "2": 92,
+      "3": 32
+    },
+    "ctr_types": {
+      "Borders": 134,
+      "Counter": 26
+    },
+    "trees": 200,
+    "categorical_features": 9,
+    "numeric_features": 0,
+    "model_bytes": 12194384
+  }
+}

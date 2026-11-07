@@ -1,0 +1,31 @@
+[
+  {
+    "model": "model.cbm",
+    "model_path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/criteo_ctr/model.cbm",
+    "ctr_features": 355,
+    "ctr_tables": 296,
+    "projections": 121,
+    "ctr_per_projection": 2.9339,
+    "ctr_per_table": 1.1993,
+    "adjacent_same_table_pairs": 59,
+    "adjacent_same_table_fraction": 0.1667,
+    "runs_of_same_table": 47,
+    "longest_run": 3,
+    "mean_run_length": 2.2553,
+    "elements_without_cat_index": 258,
+    "complexity_histogram": {
+      "1": 197,
+      "2": 131,
+      "3": 26,
+      "4": 1
+    },
+    "ctr_types": {
+      "Borders": 273,
+      "Counter": 82
+    },
+    "trees": 200,
+    "categorical_features": 26,
+    "numeric_features": 13,
+    "model_bytes": 452307396
+  }
+]

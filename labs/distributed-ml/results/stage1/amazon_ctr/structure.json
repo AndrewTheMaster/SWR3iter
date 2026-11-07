@@ -1,0 +1,30 @@
+[
+  {
+    "model": "model.cbm",
+    "model_path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/amazon_ctr/model.cbm",
+    "ctr_features": 160,
+    "ctr_tables": 76,
+    "projections": 55,
+    "ctr_per_projection": 2.9091,
+    "ctr_per_table": 2.1053,
+    "adjacent_same_table_pairs": 84,
+    "adjacent_same_table_fraction": 0.5283,
+    "runs_of_same_table": 46,
+    "longest_run": 3,
+    "mean_run_length": 2.8261,
+    "elements_without_cat_index": 0,
+    "complexity_histogram": {
+      "1": 36,
+      "2": 92,
+      "3": 32
+    },
+    "ctr_types": {
+      "Borders": 134,
+      "Counter": 26
+    },
+    "trees": 200,
+    "categorical_features": 9,
+    "numeric_features": 0,
+    "model_bytes": 12194384
+  }
+]
