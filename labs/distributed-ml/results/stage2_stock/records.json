@@ -122,12 +122,12 @@
     "startup_s": 0.104,
     "total_wall_s": 8.231,
     "exit_code": 0,
-    "model": "results/stage2/amazon_onehot_dist1/model.cbm",
+    "model": "results/stage2_stock/amazon_onehot_dist1/model.cbm",
     "model_sha256": "e516c90244d8ccbc1c9e3878b15db36cde87db7993e21bd935b6e45ca55259c4",
     "model_bytes": 231480,
-    "fit_log": "results/stage2/amazon_onehot_dist1/fit.log",
+    "fit_log": "results/stage2_stock/amazon_onehot_dist1/fit.log",
     "worker_logs": [
-      "results/stage2/amazon_onehot_dist1/worker-0.log"
+      "results/stage2_stock/amazon_onehot_dist1/worker-0.log"
     ],
     "quality": {
       "iter": 199.0,
@@ -137,7 +137,7 @@
     },
     "structure": {
       "model": "model.cbm",
-      "model_path": "results/stage2/amazon_onehot_dist1/model.cbm",
+      "model_path": "results/stage2_stock/amazon_onehot_dist1/model.cbm",
       "ctr_features": 0,
       "ctr_tables": 0,
       "projections": 0,
@@ -176,13 +176,13 @@
     "startup_s": 0.108,
     "total_wall_s": 16.262,
     "exit_code": 0,
-    "model": "results/stage2/amazon_onehot_dist2/model.cbm",
+    "model": "results/stage2_stock/amazon_onehot_dist2/model.cbm",
     "model_sha256": "c4e051f7c22be26fdc36e6c13626488573575978de50cd35ddd265488902ef8b",
     "model_bytes": 231512,
-    "fit_log": "results/stage2/amazon_onehot_dist2/fit.log",
+    "fit_log": "results/stage2_stock/amazon_onehot_dist2/fit.log",
     "worker_logs": [
-      "results/stage2/amazon_onehot_dist2/worker-0.log",
-      "results/stage2/amazon_onehot_dist2/worker-1.log"
+      "results/stage2_stock/amazon_onehot_dist2/worker-0.log",
+      "results/stage2_stock/amazon_onehot_dist2/worker-1.log"
     ],
     "quality": {
       "iter": 199.0,
@@ -192,7 +192,7 @@
     },
     "structure": {
       "model": "model.cbm",
-      "model_path": "results/stage2/amazon_onehot_dist2/model.cbm",
+      "model_path": "results/stage2_stock/amazon_onehot_dist2/model.cbm",
       "ctr_features": 0,
       "ctr_tables": 0,
       "projections": 0,
@@ -231,15 +231,15 @@
     "startup_s": 0.11,
     "total_wall_s": 22.12,
     "exit_code": 0,
-    "model": "results/stage2/amazon_onehot_dist4/model.cbm",
+    "model": "results/stage2_stock/amazon_onehot_dist4/model.cbm",
     "model_sha256": "6b3df354499cb4a61f04e7a60c3eaff549f3cc12aaea9419805dcea17ce93578",
     "model_bytes": 231512,
-    "fit_log": "results/stage2/amazon_onehot_dist4/fit.log",
+    "fit_log": "results/stage2_stock/amazon_onehot_dist4/fit.log",
     "worker_logs": [
-      "results/stage2/amazon_onehot_dist4/worker-0.log",
-      "results/stage2/amazon_onehot_dist4/worker-1.log",
-      "results/stage2/amazon_onehot_dist4/worker-2.log",
-      "results/stage2/amazon_onehot_dist4/worker-3.log"
+      "results/stage2_stock/amazon_onehot_dist4/worker-0.log",
+      "results/stage2_stock/amazon_onehot_dist4/worker-1.log",
+      "results/stage2_stock/amazon_onehot_dist4/worker-2.log",
+      "results/stage2_stock/amazon_onehot_dist4/worker-3.log"
     ],
     "quality": {
       "iter": 199.0,
@@ -249,7 +249,7 @@
     },
     "structure": {
       "model": "model.cbm",
-      "model_path": "results/stage2/amazon_onehot_dist4/model.cbm",
+      "model_path": "results/stage2_stock/amazon_onehot_dist4/model.cbm",
       "ctr_features": 0,
       "ctr_tables": 0,
       "projections": 0,
@@ -377,12 +377,12 @@
     "startup_s": 0.107,
     "total_wall_s": 8.299,
     "exit_code": 0,
-    "model": "results/stage2/kdd_num_dist1/model.cbm",
+    "model": "results/stage2_stock/kdd_num_dist1/model.cbm",
     "model_sha256": "f2f94dda8350eac0c8f386ea50802e22c00529552f43aa680261f48811202289",
     "model_bytes": 238272,
-    "fit_log": "results/stage2/kdd_num_dist1/fit.log",
+    "fit_log": "results/stage2_stock/kdd_num_dist1/fit.log",
     "worker_logs": [
-      "results/stage2/kdd_num_dist1/worker-0.log"
+      "results/stage2_stock/kdd_num_dist1/worker-0.log"
     ],
     "quality": {
       "iter": 199.0,
@@ -392,7 +392,7 @@
     },
     "structure": {
       "model": "model.cbm",
-      "model_path": "results/stage2/kdd_num_dist1/model.cbm",
+      "model_path": "results/stage2_stock/kdd_num_dist1/model.cbm",
       "ctr_features": 0,
       "ctr_tables": 0,
       "projections": 0,
@@ -426,13 +426,13 @@
     "startup_s": 0.107,
     "total_wall_s": 12.304,
     "exit_code": 0,
-    "model": "results/stage2/kdd_num_dist2/model.cbm",
+    "model": "results/stage2_stock/kdd_num_dist2/model.cbm",
     "model_sha256": "c858c55dfdbffb9b3a5f05c2e44f008a199534ff76a52c4e98f2e99b7ed76dd0",
     "model_bytes": 238192,
-    "fit_log": "results/stage2/kdd_num_dist2/fit.log",
+    "fit_log": "results/stage2_stock/kdd_num_dist2/fit.log",
     "worker_logs": [
-      "results/stage2/kdd_num_dist2/worker-0.log",
-      "results/stage2/kdd_num_dist2/worker-1.log"
+      "results/stage2_stock/kdd_num_dist2/worker-0.log",
+      "results/stage2_stock/kdd_num_dist2/worker-1.log"
     ],
     "quality": {
       "iter": 199.0,
@@ -442,7 +442,7 @@
     },
     "structure": {
       "model": "model.cbm",
-      "model_path": "results/stage2/kdd_num_dist2/model.cbm",
+      "model_path": "results/stage2_stock/kdd_num_dist2/model.cbm",
       "ctr_features": 0,
       "ctr_tables": 0,
       "projections": 0,
@@ -476,15 +476,15 @@
     "startup_s": 0.111,
     "total_wall_s": 20.115,
     "exit_code": 0,
-    "model": "results/stage2/kdd_num_dist4/model.cbm",
+    "model": "results/stage2_stock/kdd_num_dist4/model.cbm",
     "model_sha256": "0dfa6e6a9cc565fa9d1580aeb68f243bbc088d89fa3d82eb65032c875eb753a5",
     "model_bytes": 238264,
-    "fit_log": "results/stage2/kdd_num_dist4/fit.log",
+    "fit_log": "results/stage2_stock/kdd_num_dist4/fit.log",
     "worker_logs": [
-      "results/stage2/kdd_num_dist4/worker-0.log",
-      "results/stage2/kdd_num_dist4/worker-1.log",
-      "results/stage2/kdd_num_dist4/worker-2.log",
-      "results/stage2/kdd_num_dist4/worker-3.log"
+      "results/stage2_stock/kdd_num_dist4/worker-0.log",
+      "results/stage2_stock/kdd_num_dist4/worker-1.log",
+      "results/stage2_stock/kdd_num_dist4/worker-2.log",
+      "results/stage2_stock/kdd_num_dist4/worker-3.log"
     ],
     "quality": {
       "iter": 199.0,
@@ -494,7 +494,7 @@
     },
     "structure": {
       "model": "model.cbm",
-      "model_path": "results/stage2/kdd_num_dist4/model.cbm",
+      "model_path": "results/stage2_stock/kdd_num_dist4/model.cbm",
       "ctr_features": 0,
       "ctr_tables": 0,
       "projections": 0,
@@ -622,12 +622,12 @@
     "startup_s": 0.107,
     "total_wall_s": 22.121,
     "exit_code": 0,
-    "model": "results/stage2/criteo_num_dist1/model.cbm",
+    "model": "results/stage2_stock/criteo_num_dist1/model.cbm",
     "model_sha256": "4227ca3e464c588c3cf47b1c6fb90abc5e7608ea6297d589a851b925714e8f2c",
     "model_bytes": 232168,
-    "fit_log": "results/stage2/criteo_num_dist1/fit.log",
+    "fit_log": "results/stage2_stock/criteo_num_dist1/fit.log",
     "worker_logs": [
-      "results/stage2/criteo_num_dist1/worker-0.log"
+      "results/stage2_stock/criteo_num_dist1/worker-0.log"
     ],
     "quality": {
       "iter": 199.0,
@@ -637,7 +637,7 @@
     },
     "structure": {
       "model": "model.cbm",
-      "model_path": "results/stage2/criteo_num_dist1/model.cbm",
+      "model_path": "results/stage2_stock/criteo_num_dist1/model.cbm",
       "ctr_features": 0,
       "ctr_tables": 0,
       "projections": 0,
@@ -671,13 +671,13 @@
     "startup_s": 0.108,
     "total_wall_s": 18.086,
     "exit_code": 0,
-    "model": "results/stage2/criteo_num_dist2/model.cbm",
+    "model": "results/stage2_stock/criteo_num_dist2/model.cbm",
     "model_sha256": "ae85eb3f294133b8aefb39ad51035dc6ad1480f6e86a13e5dfae5c5beb4a9715",
     "model_bytes": 232152,
-    "fit_log": "results/stage2/criteo_num_dist2/fit.log",
+    "fit_log": "results/stage2_stock/criteo_num_dist2/fit.log",
     "worker_logs": [
-      "results/stage2/criteo_num_dist2/worker-0.log",
-      "results/stage2/criteo_num_dist2/worker-1.log"
+      "results/stage2_stock/criteo_num_dist2/worker-0.log",
+      "results/stage2_stock/criteo_num_dist2/worker-1.log"
     ],
     "quality": {
       "iter": 199.0,
@@ -687,7 +687,7 @@
     },
     "structure": {
       "model": "model.cbm",
-      "model_path": "results/stage2/criteo_num_dist2/model.cbm",
+      "model_path": "results/stage2_stock/criteo_num_dist2/model.cbm",
       "ctr_features": 0,
       "ctr_tables": 0,
       "projections": 0,
@@ -721,15 +721,15 @@
     "startup_s": 0.108,
     "total_wall_s": 16.116,
     "exit_code": 0,
-    "model": "results/stage2/criteo_num_dist4/model.cbm",
+    "model": "results/stage2_stock/criteo_num_dist4/model.cbm",
     "model_sha256": "fbec8ffdc17ae64a88d002e104929b36f12566184d9a1a89b973c68069482db1",
     "model_bytes": 232168,
-    "fit_log": "results/stage2/criteo_num_dist4/fit.log",
+    "fit_log": "results/stage2_stock/criteo_num_dist4/fit.log",
     "worker_logs": [
-      "results/stage2/criteo_num_dist4/worker-0.log",
-      "results/stage2/criteo_num_dist4/worker-1.log",
-      "results/stage2/criteo_num_dist4/worker-2.log",
-      "results/stage2/criteo_num_dist4/worker-3.log"
+      "results/stage2_stock/criteo_num_dist4/worker-0.log",
+      "results/stage2_stock/criteo_num_dist4/worker-1.log",
+      "results/stage2_stock/criteo_num_dist4/worker-2.log",
+      "results/stage2_stock/criteo_num_dist4/worker-3.log"
     ],
     "quality": {
       "iter": 199.0,
@@ -739,7 +739,7 @@
     },
     "structure": {
       "model": "model.cbm",
-      "model_path": "results/stage2/criteo_num_dist4/model.cbm",
+      "model_path": "results/stage2_stock/criteo_num_dist4/model.cbm",
       "ctr_features": 0,
       "ctr_tables": 0,
       "projections": 0,
@@ -776,10 +776,10 @@
     "model": null,
     "model_sha256": null,
     "model_bytes": null,
-    "fit_log": "results/stage2/amazon_ctr_dist2_failure/fit.log",
+    "fit_log": "results/stage2_stock/amazon_ctr_dist2_failure/fit.log",
     "worker_logs": [
-      "results/stage2/amazon_ctr_dist2_failure/worker-0.log",
-      "results/stage2/amazon_ctr_dist2_failure/worker-1.log"
+      "results/stage2_stock/amazon_ctr_dist2_failure/worker-0.log",
+      "results/stage2_stock/amazon_ctr_dist2_failure/worker-1.log"
     ],
     "failure_tail": {
       "fit.log": [
@@ -833,10 +833,10 @@
     "model": null,
     "model_sha256": null,
     "model_bytes": null,
-    "fit_log": "results/stage2/kdd_ctr_dist2_failure/fit.log",
+    "fit_log": "results/stage2_stock/kdd_ctr_dist2_failure/fit.log",
     "worker_logs": [
-      "results/stage2/kdd_ctr_dist2_failure/worker-0.log",
-      "results/stage2/kdd_ctr_dist2_failure/worker-1.log"
+      "results/stage2_stock/kdd_ctr_dist2_failure/worker-0.log",
+      "results/stage2_stock/kdd_ctr_dist2_failure/worker-1.log"
     ],
     "failure_tail": {
       "fit.log": [
@@ -895,10 +895,10 @@
     "model": null,
     "model_sha256": null,
     "model_bytes": null,
-    "fit_log": "results/stage2/criteo_ctr_dist2_failure/fit.log",
+    "fit_log": "results/stage2_stock/criteo_ctr_dist2_failure/fit.log",
     "worker_logs": [
-      "results/stage2/criteo_ctr_dist2_failure/worker-0.log",
-      "results/stage2/criteo_ctr_dist2_failure/worker-1.log"
+      "results/stage2_stock/criteo_ctr_dist2_failure/worker-0.log",
+      "results/stage2_stock/criteo_ctr_dist2_failure/worker-1.log"
     ],
     "failure_tail": {
       "fit.log": [
