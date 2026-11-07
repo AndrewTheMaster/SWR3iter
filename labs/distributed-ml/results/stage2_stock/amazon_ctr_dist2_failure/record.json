@@ -1,0 +1,57 @@
+{
+  "name": "amazon_ctr_dist2_failure",
+  "mode": "dist",
+  "workers": 2,
+  "worker_threads": 3,
+  "threads": 3,
+  "iterations": 10,
+  "extra_args": [],
+  "train_rows": 24577,
+  "holdout_rows": 8192,
+  "fit_wall_s": 2.129,
+  "startup_s": 0.108,
+  "total_wall_s": 2.239,
+  "exit_code": -6,
+  "model": null,
+  "model_sha256": null,
+  "model_bytes": null,
+  "fit_log": "results/stage2/amazon_ctr_dist2_failure/fit.log",
+  "worker_logs": [
+    "results/stage2/amazon_ctr_dist2_failure/worker-0.log",
+    "results/stage2/amazon_ctr_dist2_failure/worker-1.log"
+  ],
+  "failure_tail": {
+    "fit.log": [
+      "PAR_LOG: 2026-10-19 23:51:58.124 +0300 par_network.cpp:319 From tcp2://abaryaev.local:61302/matrixnet sending empty request 9b416def-3d38b398-85bce4cd-b2a1996f to tcp2://127.0.0.1:24001/matrixnet service _ping_",
+      "",
+      "VERIFY failed (2026-10-19T23:51:58.137600+0300): got unexpected network error, no retries rest",
+      "  library/cpp/par/par_network.cpp:187",
+      "  MultiClientThreadLoopFunction(): requirement false failed",
+      "NPrivate::InternalPanicImpl(int, char const*, char const*, int, int, int, TBasicStringBuf<char, std::__y1::char_traits<char>>, char const*, unsigned long)+584 (0x100BE67FC)",
+      "NPrivate::Panic(NPrivate::TStaticBuf const&, int, char const*, char const*, char const*, ...)+220 (0x100BDF220)",
+      "NPar::TNehRequester::MultiClientThreadLoopFunction()+3092 (0x10126098C)",
+      "(anonymous namespace)::TThreadFactoryFuncObj::DoExecute()+36 (0x100BEC8F0)",
+      "(anonymous namespace)::TSystemThreadFactory::TPoolThread::ThreadProc(void*)+20 (0x100BECBE8)",
+      "(anonymous namespace)::TPosixThread::ThreadProxy(void*)+76 (0x100BE87B0)",
+      "_pthread_start+136 (0x184D43C58)"
+    ],
+    "worker-0.log": [
+      "Terminating due to uncaught exception 0x600001d24090    what() -> \"util/generic/hash_table.cpp:50: Key not found in hashtable: TProjection\"",
+      " of type yexception",
+      "Terminating due to uncaught exception 0x600001d34000    what() -> \"util/generic/hash_table.cpp:50: Key not found in hashtable: TProjection\"",
+      " of type yexception",
+      "Terminating due to uncaught exception 0x600001d28240    what() -> \"util/generic/hash_table.cpp:50: Key not found in hashtable: TProjection\"",
+      " of type yexception",
+      "Fold: Use owned online single ctrs"
+    ],
+    "worker-1.log": [
+      "Terminating due to uncaught exception 0x600000f14090    what() -> \"util/generic/hash_table.cpp:50: Key not found in hashtable: TProjection\"",
+      "Terminating due to uncaught exception 0x600000f09710    what() -> \"util/generic/hash_table.cpp:50: Key not found in hashtable: TProjection\"",
+      " of type yexception",
+      " of type yexception",
+      "Terminating due to uncaught exception 0x600000f1c000    what() -> \"util/generic/hash_table.cpp:50: Key not found in hashtable: TProjection\"",
+      " of type yexception",
+      "Fold: Use owned online single ctrs"
+    ]
+  }
+}

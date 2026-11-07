@@ -1,0 +1,15 @@
+0:	learn: 0.5799198	total: 33.1ms	remaining: 6.58s
+20:	learn: 0.2153840	total: 597ms	remaining: 5.09s
+40:	learn: 0.2030420	total: 1.16s	remaining: 4.5s
+60:	learn: 0.1966965	total: 1.74s	remaining: 3.96s
+80:	learn: 0.1916455	total: 2.31s	remaining: 3.4s
+100:	learn: 0.1865377	total: 2.88s	remaining: 2.82s
+120:	learn: 0.1811646	total: 3.49s	remaining: 2.28s
+140:	learn: 0.1768705	total: 4.07s	remaining: 1.7s
+160:	learn: 0.1736319	total: 4.67s	remaining: 1.13s
+180:	learn: 0.1705201	total: 5.26s	remaining: 552ms
+199:	learn: 0.1675038	total: 5.82s	remaining: 0us
+QueryFullTime: 5.574669
+QueryExecutionTime: 3.131924
+Skipping test eval output
+0.1082673763 min passed

@@ -1,0 +1,62 @@
+{
+  "name": "kdd_ctr_dist2_failure",
+  "mode": "dist",
+  "workers": 2,
+  "worker_threads": 3,
+  "threads": 3,
+  "iterations": 10,
+  "extra_args": [],
+  "train_rows": 37500,
+  "holdout_rows": 12500,
+  "fit_wall_s": 2.357,
+  "startup_s": 0.114,
+  "total_wall_s": 2.471,
+  "exit_code": -6,
+  "model": null,
+  "model_sha256": null,
+  "model_bytes": null,
+  "fit_log": "results/stage2/kdd_ctr_dist2_failure/fit.log",
+  "worker_logs": [
+    "results/stage2/kdd_ctr_dist2_failure/worker-0.log",
+    "results/stage2/kdd_ctr_dist2_failure/worker-1.log"
+  ],
+  "failure_tail": {
+    "fit.log": [
+      "PAR_LOG: 2026-10-19 23:52:00.609 +0300 par_network.cpp:319 From tcp2://abaryaev.local:61398/matrixnet sending empty request c7a369d7-836f197b-a21d189d-8ba1a15e to tcp2://127.0.0.1:24001/matrixnet service _ping_",
+      "",
+      "VERIFY failed (2026-10-19T23:52:00.616713+0300): got unexpected network error, no retries rest",
+      "  library/cpp/par/par_network.cpp:187",
+      "  MultiClientThreadLoopFunction(): requirement false failed",
+      "NPrivate::InternalPanicImpl(int, char const*, char const*, int, int, int, TBasicStringBuf<char, std::__y1::char_traits<char>>, char const*, unsigned long)+584 (0x10259A7FC)",
+      "NPrivate::Panic(NPrivate::TStaticBuf const&, int, char const*, char const*, char const*, ...)+220 (0x102593220)",
+      "NPar::TNehRequester::MultiClientThreadLoopFunction()+3092 (0x102C1498C)",
+      "(anonymous namespace)::TThreadFactoryFuncObj::DoExecute()+36 (0x1025A08F0)",
+      "(anonymous namespace)::TSystemThreadFactory::TPoolThread::ThreadProc(void*)+20 (0x1025A0BE8)",
+      "(anonymous namespace)::TPosixThread::ThreadProxy(void*)+76 (0x10259C7B0)",
+      "_pthread_start+136 (0x184D43C58)"
+    ],
+    "worker-0.log": [
+      "ERROR: 2026-10-19 23:51:58.683 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 2e68ec01-b734582b-1ee5bb86-566ec802 tcp2://127.0.0.1:24001/matrixnet mr@24000 retries rest: 39",
+      "ERROR: 2026-10-19 23:51:58.683 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: b9b1d407-378bd81a-2c557438-bb1cd9eb tcp2://127.0.0.1:24001/matrixnet mr@24000 retries rest: 39",
+      "ERROR: 2026-10-19 23:51:58.683 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 1b6946ce-843936d2-579fcffd-3888b8e2 tcp2://127.0.0.1:24001/matrixnet mr@24000 retries rest: 39",
+      "ERROR: 2026-10-19 23:51:58.683 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 19431a39-5afbe6c2-b06eb3d2-421cf08 tcp2://127.0.0.1:24001/matrixnet mr@24000 retries rest: 39",
+      "ERROR: 2026-10-19 23:51:58.683 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: c71d21f0-488d3cfc-ecfdac90-151902f5 tcp2://127.0.0.1:24001/matrixnet mr@24000 retries rest: 39",
+      "ERROR: 2026-10-19 23:51:58.683 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 977f37cf-791dab99-9d53a15f-e00be2a5 tcp2://127.0.0.1:24001/matrixnet mr@24000 retries rest: 39",
+      "ERROR: 2026-10-19 23:51:58.683 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: f28eefde-2a22d064-42e6f860-67925c7 tcp2://127.0.0.1:24001/matrixnet mr@24000 retries rest: 39",
+      "ERROR: 2026-10-19 23:51:58.683 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 74110402-c53ff5c2-e96841d7-6c76e044 tcp2://127.0.0.1:24001/matrixnet _reply_ retries rest: 40",
+      "ERROR: 2026-10-19 23:51:58.683 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: a986af63-41dcd51f-86200b20-8c89d4c tcp2://127.0.0.1:24001/matrixnet mr@24000 retries rest: 39",
+      "ERROR: 2026-10-19 23:51:58.683 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 8b3f0fc0-31113e00-a6f21ec1-7de4f7f4 tcp2://127.0.0.1:24001/matrixnet _reply_ retries rest: 39",
+      "ERROR: 2026-10-19 23:51:58.683 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: c7399a00-4339f834-9a710fd5-2c4211e1 tcp2://127.0.0.1:24001/matrixnet _reply_ retries rest: 39",
+      "Fold: Use owned online single ctrs"
+    ],
+    "worker-1.log": [
+      "Terminating due to uncaught exception 0x600002d84000    what() -> \"util/generic/hash_table.cpp:50: Key not found in hashtable: TProjection\"",
+      " of type yexception",
+      "Terminating due to uncaught exception 0x600002d942d0    what() -> \"util/generic/hash_table.cpp:50: Key not found in hashtable: TProjection\"",
+      " of type yexception",
+      "Terminating due to uncaught exception 0x600002d88000    what() -> \"util/generic/hash_table.cpp:50: Key not found in hashtable: TProjection\"",
+      " of type yexception",
+      "Fold: Use owned online single ctrs"
+    ]
+  }
+}

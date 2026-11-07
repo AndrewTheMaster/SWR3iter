@@ -1,0 +1,52 @@
+{
+  "name": "kdd_num_dist4",
+  "mode": "dist",
+  "workers": 4,
+  "worker_threads": 3,
+  "threads": 3,
+  "iterations": 200,
+  "extra_args": [],
+  "train_rows": 37500,
+  "holdout_rows": 12500,
+  "fit_wall_s": 18.209,
+  "startup_s": 0.111,
+  "total_wall_s": 20.115,
+  "exit_code": 0,
+  "model": "results/stage2/kdd_num_dist4/model.cbm",
+  "model_sha256": "0dfa6e6a9cc565fa9d1580aeb68f243bbc088d89fa3d82eb65032c875eb753a5",
+  "model_bytes": 238264,
+  "fit_log": "results/stage2/kdd_num_dist4/fit.log",
+  "worker_logs": [
+    "results/stage2/kdd_num_dist4/worker-0.log",
+    "results/stage2/kdd_num_dist4/worker-1.log",
+    "results/stage2/kdd_num_dist4/worker-2.log",
+    "results/stage2/kdd_num_dist4/worker-3.log"
+  ],
+  "quality": {
+    "iter": 199.0,
+    "Logloss": 0.2407174213,
+    "AUC": 0.7257659038,
+    "eval_exit_code": 0
+  },
+  "structure": {
+    "model": "model.cbm",
+    "model_path": "results/stage2/kdd_num_dist4/model.cbm",
+    "ctr_features": 0,
+    "ctr_tables": 0,
+    "projections": 0,
+    "ctr_per_projection": 0.0,
+    "ctr_per_table": 0.0,
+    "adjacent_same_table_pairs": 0,
+    "adjacent_same_table_fraction": 0.0,
+    "runs_of_same_table": 0,
+    "longest_run": 0,
+    "mean_run_length": 0.0,
+    "elements_without_cat_index": 0,
+    "complexity_histogram": {},
+    "ctr_types": {},
+    "trees": 200,
+    "categorical_features": 0,
+    "numeric_features": 190,
+    "model_bytes": 238264
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "criteo_ctr_dist2_failure",
+  "mode": "dist",
+  "workers": 2,
+  "worker_threads": 3,
+  "threads": 3,
+  "iterations": 10,
+  "extra_args": [],
+  "train_rows": 1557838,
+  "holdout_rows": 757695,
+  "fit_wall_s": 8.872,
+  "startup_s": 0.11,
+  "total_wall_s": 8.982,
+  "exit_code": -6,
+  "model": null,
+  "model_sha256": null,
+  "model_bytes": null,
+  "fit_log": "results/stage2/criteo_ctr_dist2_failure/fit.log",
+  "worker_logs": [
+    "results/stage2/criteo_ctr_dist2_failure/worker-0.log",
+    "results/stage2/criteo_ctr_dist2_failure/worker-1.log"
+  ],
+  "failure_tail": {
+    "fit.log": [
+      "PAR_LOG: 2026-10-19 23:52:09.625 +0300 par_network.cpp:319 From tcp2://abaryaev.local:61503/matrixnet sending empty request fb393928-77a48716-a8d0a0ea-cfce2355 to tcp2://127.0.0.1:24001/matrixnet service _ping_",
+      "",
+      "VERIFY failed (2026-10-19T23:52:09.630651+0300): got unexpected network error, no retries rest",
+      "  library/cpp/par/par_network.cpp:187",
+      "  MultiClientThreadLoopFunction(): requirement false failed",
+      "NPrivate::InternalPanicImpl(int, char const*, char const*, int, int, int, TBasicStringBuf<char, std::__y1::char_traits<char>>, char const*, unsigned long)+584 (0x10300E7FC)",
+      "NPrivate::Panic(NPrivate::TStaticBuf const&, int, char const*, char const*, char const*, ...)+220 (0x103007220)",
+      "NPar::TNehRequester::MultiClientThreadLoopFunction()+3092 (0x10368898C)",
+      "(anonymous namespace)::TThreadFactoryFuncObj::DoExecute()+36 (0x1030148F0)",
+      "(anonymous namespace)::TSystemThreadFactory::TPoolThread::ThreadProc(void*)+20 (0x103014BE8)",
+      "(anonymous namespace)::TPosixThread::ThreadProxy(void*)+76 (0x1030107B0)",
+      "_pthread_start+136 (0x184D43C58)"
+    ],
+    "worker-0.log": [
+      "Terminating due to uncaught exception 0x60000353c000    what() -> \"util/generic/hash_table.cpp:50: Key not found in hashtable: TProjection\"",
+      " of type yexception",
+      "Fold: Use owned online single ctrs"
+    ],
+    "worker-1.log": [
+      "Terminating due to uncaught exception 0x600001c48000    what() -> \"util/generic/hash_table.cpp:50: Key not found in hashtable: TProjection\"",
+      " of type yexception",
+      "Fold: Use owned online single ctrs"
+    ]
+  }
+}

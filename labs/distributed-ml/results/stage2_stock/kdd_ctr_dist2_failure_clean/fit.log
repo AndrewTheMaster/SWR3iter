@@ -1,0 +1,519 @@
+ERROR: 2026-10-19 23:59:01.786 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 40
+ERROR: 2026-10-19 23:59:01.786 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 40
+ERROR: 2026-10-19 23:59:01.787 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 39
+ERROR: 2026-10-19 23:59:01.787 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 39
+ERROR: 2026-10-19 23:59:01.787 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 38
+ERROR: 2026-10-19 23:59:01.787 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 38
+ERROR: 2026-10-19 23:59:01.787 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 37
+ERROR: 2026-10-19 23:59:01.788 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 37
+ERROR: 2026-10-19 23:59:01.788 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 36
+ERROR: 2026-10-19 23:59:01.788 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 36
+ERROR: 2026-10-19 23:59:01.788 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 35
+ERROR: 2026-10-19 23:59:01.788 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 35
+ERROR: 2026-10-19 23:59:01.788 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 34
+ERROR: 2026-10-19 23:59:01.789 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 34
+ERROR: 2026-10-19 23:59:01.789 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 33
+ERROR: 2026-10-19 23:59:01.789 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 33
+ERROR: 2026-10-19 23:59:01.789 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 32
+ERROR: 2026-10-19 23:59:01.789 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 32
+ERROR: 2026-10-19 23:59:01.789 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 31
+ERROR: 2026-10-19 23:59:01.789 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 31
+ERROR: 2026-10-19 23:59:01.790 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 30
+ERROR: 2026-10-19 23:59:01.790 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 30
+ERROR: 2026-10-19 23:59:01.790 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 29
+ERROR: 2026-10-19 23:59:01.790 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 29
+ERROR: 2026-10-19 23:59:01.790 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 28
+ERROR: 2026-10-19 23:59:01.790 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 28
+ERROR: 2026-10-19 23:59:01.791 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 27
+ERROR: 2026-10-19 23:59:01.791 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 27
+ERROR: 2026-10-19 23:59:01.791 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 26
+ERROR: 2026-10-19 23:59:01.791 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 26
+ERROR: 2026-10-19 23:59:01.791 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 25
+ERROR: 2026-10-19 23:59:01.791 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 25
+ERROR: 2026-10-19 23:59:01.792 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 24
+ERROR: 2026-10-19 23:59:01.792 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 24
+ERROR: 2026-10-19 23:59:01.792 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 23
+ERROR: 2026-10-19 23:59:01.792 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 23
+ERROR: 2026-10-19 23:59:01.792 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 22
+ERROR: 2026-10-19 23:59:01.792 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 22
+ERROR: 2026-10-19 23:59:01.792 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 21
+ERROR: 2026-10-19 23:59:01.793 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 21
+ERROR: 2026-10-19 23:59:01.793 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 20
+ERROR: 2026-10-19 23:59:01.793 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 20
+ERROR: 2026-10-19 23:59:01.793 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 19
+ERROR: 2026-10-19 23:59:01.793 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 19
+ERROR: 2026-10-19 23:59:01.793 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 18
+ERROR: 2026-10-19 23:59:01.793 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 18
+ERROR: 2026-10-19 23:59:01.794 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 17
+ERROR: 2026-10-19 23:59:01.794 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 17
+ERROR: 2026-10-19 23:59:01.794 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 16
+ERROR: 2026-10-19 23:59:01.794 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 16
+ERROR: 2026-10-19 23:59:01.794 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 15
+ERROR: 2026-10-19 23:59:01.795 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 15
+ERROR: 2026-10-19 23:59:01.795 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 14
+ERROR: 2026-10-19 23:59:01.795 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 14
+ERROR: 2026-10-19 23:59:01.795 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 13
+ERROR: 2026-10-19 23:59:01.795 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 13
+ERROR: 2026-10-19 23:59:01.796 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 12
+ERROR: 2026-10-19 23:59:01.796 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 12
+ERROR: 2026-10-19 23:59:01.796 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 11
+ERROR: 2026-10-19 23:59:01.796 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 11
+ERROR: 2026-10-19 23:59:01.796 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 10
+ERROR: 2026-10-19 23:59:01.796 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 10
+ERROR: 2026-10-19 23:59:01.797 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 9
+ERROR: 2026-10-19 23:59:01.797 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 9
+ERROR: 2026-10-19 23:59:01.797 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 8
+ERROR: 2026-10-19 23:59:01.797 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 8
+ERROR: 2026-10-19 23:59:01.797 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 7
+ERROR: 2026-10-19 23:59:01.797 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 7
+ERROR: 2026-10-19 23:59:01.798 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 6
+ERROR: 2026-10-19 23:59:01.798 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 6
+ERROR: 2026-10-19 23:59:01.798 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 5
+ERROR: 2026-10-19 23:59:01.798 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 5
+ERROR: 2026-10-19 23:59:01.798 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 4
+ERROR: 2026-10-19 23:59:01.798 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 4
+ERROR: 2026-10-19 23:59:01.799 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 3
+ERROR: 2026-10-19 23:59:01.799 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 3
+ERROR: 2026-10-19 23:59:01.799 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 2
+ERROR: 2026-10-19 23:59:01.799 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 2
+ERROR: 2026-10-19 23:59:01.799 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 1
+ERROR: 2026-10-19 23:59:01.799 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25120/matrixnet _ping_ retries rest: 1
+ERROR: 2026-10-19 23:59:01.799 +0300 par_network.cpp:182 query error: 0 Connection refused info: reqId: 9890f456-fa6dfc8a-91139059-9fad7747 tcp2://127.0.0.1:25121/matrixnet _ping_ retries rest: 0
+PAR_LOG: 2026-10-19 23:58:59.783 +0300 par_network.cpp:78 Listening as tcp2://*:61728/matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.784 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request ea7eb2a-c42b2d67-8e29c7ae-d1887aea to tcp2://127.0.0.1:25120/matrixnet service init@61728 data len: 171 (compressed: 171)
+
+PAR_LOG: 2026-10-19 23:58:59.784 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 55f34dea-aba6432e-93fcc567-8826f3cd to tcp2://127.0.0.1:25121/matrixnet service init@61728 data len: 171 (compressed: 171)
+
+PAR_LOG: 2026-10-19 23:58:59.785 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.785 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request ea7eb2a-c42b2d67-8e29c7ae-d1887aea service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.785 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId ea7eb2a-c42b2d67-8e29c7ae-d1887aea
+
+PAR_LOG: 2026-10-19 23:58:59.785 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.785 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 55f34dea-aba6432e-93fcc567-8826f3cd service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.785 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 55f34dea-aba6432e-93fcc567-8826f3cd
+
+PAR_LOG: 2026-10-19 23:58:59.785 +0300 par_network.cpp:319 From tcp2://abaryaev.local:61728/matrixnet sending empty request 899b43d1-9b9ccb64-f34e7efc-c8ee5024 to tcp2://127.0.0.1:25120/matrixnet service run_ping@61728
+
+PAR_LOG: 2026-10-19 23:58:59.785 +0300 par_network.cpp:319 From tcp2://abaryaev.local:61728/matrixnet sending empty request dc2d2e63-424ba4d8-3081760c-f3d8f8cd to tcp2://127.0.0.1:25121/matrixnet service run_ping@61728
+
+PAR_LOG: 2026-10-19 23:58:59.854 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.854 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 899b43d1-9b9ccb64-f34e7efc-c8ee5024 service: _reply_ data len: 164
+
+PAR_LOG: 2026-10-19 23:58:59.854 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 899b43d1-9b9ccb64-f34e7efc-c8ee5024
+
+PAR_LOG: 2026-10-19 23:58:59.854 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.854 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request dc2d2e63-424ba4d8-3081760c-f3d8f8cd service: _reply_ data len: 164
+
+PAR_LOG: 2026-10-19 23:58:59.854 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId dc2d2e63-424ba4d8-3081760c-f3d8f8cd
+
+PAR_LOG: 2026-10-19 23:58:59.855 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 6d6c758d-f504cbd5-ef4f68d5-4b31c037 to tcp2://127.0.0.1:25120/matrixnet service exec_plan@61728 data len: 8 (compressed: 8)
+
+PAR_LOG: 2026-10-19 23:58:59.855 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request a912d7-59baa76b-2bb7ff93-1c687ca0 to tcp2://127.0.0.1:25121/matrixnet service exec_plan@61728 data len: 8 (compressed: 8)
+
+PAR_LOG: 2026-10-19 23:58:59.855 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.855 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 6d6c758d-f504cbd5-ef4f68d5-4b31c037 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.855 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 6d6c758d-f504cbd5-ef4f68d5-4b31c037
+
+PAR_LOG: 2026-10-19 23:58:59.855 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.855 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request a912d7-59baa76b-2bb7ff93-1c687ca0 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.855 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId a912d7-59baa76b-2bb7ff93-1c687ca0
+
+PAR_LOG: 2026-10-19 23:58:59.855 +0300 par_context.cpp:126 forward context 1 (p0 v0) from -1 to 1
+
+PAR_LOG: 2026-10-19 23:58:59.855 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request d598d44d-c925fe31-1cb0873a-43cd2017 to tcp2://127.0.0.1:25121/matrixnet service ctx@61728 data len: 41 (compressed: 41)
+
+PAR_LOG: 2026-10-19 23:58:59.856 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.856 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request d598d44d-c925fe31-1cb0873a-43cd2017 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.856 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId d598d44d-c925fe31-1cb0873a-43cd2017
+
+PAR_LOG: 2026-10-19 23:58:59.861 +0300 par_context.cpp:176 Comp 1 confirmed env 1 version 0 part 0
+
+PAR_LOG: 2026-10-19 23:58:59.861 +0300 par_context.cpp:126 forward context 224842880 (p0 v1) from -1 to 0
+
+PAR_LOG: 2026-10-19 23:58:59.863 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request a9032444-222796bd-3b485dde-1d355d0 to tcp2://127.0.0.1:25120/matrixnet service ctx@61728 data len: 1048597 (compressed: 419375)
+
+PAR_LOG: 2026-10-19 23:58:59.863 +0300 par_context.cpp:126 forward context 1 (p0 v0) from 1 to 0
+
+PAR_LOG: 2026-10-19 23:58:59.863 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 66bac42c-3c7526f3-e70edb31-cfb689dd to tcp2://127.0.0.1:25121/matrixnet service ctx_fwd@61728 data len: 13 (compressed: 13)
+
+PAR_LOG: 2026-10-19 23:58:59.864 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.864 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 66bac42c-3c7526f3-e70edb31-cfb689dd service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.864 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 66bac42c-3c7526f3-e70edb31-cfb689dd
+
+PAR_LOG: 2026-10-19 23:58:59.864 +0300 par_context.cpp:176 Comp 0 confirmed env 1 version 0 part 0
+
+PAR_LOG: 2026-10-19 23:58:59.865 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.865 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request a9032444-222796bd-3b485dde-1d355d0 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.865 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId a9032444-222796bd-3b485dde-1d355d0
+
+PAR_LOG: 2026-10-19 23:58:59.865 +0300 par_context.cpp:176 Comp 0 confirmed env 224842880 version 1 part 3
+
+PAR_LOG: 2026-10-19 23:58:59.865 +0300 par_context.cpp:126 forward context 2 (p0 v0) from -1 to 0
+
+PAR_LOG: 2026-10-19 23:58:59.865 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request c170f2b2-dd396018-d64fe8f9-8129372d to tcp2://127.0.0.1:25120/matrixnet service ctx@61728 data len: 41 (compressed: 41)
+
+PAR_LOG: 2026-10-19 23:58:59.865 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.865 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request c170f2b2-dd396018-d64fe8f9-8129372d service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.865 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId c170f2b2-dd396018-d64fe8f9-8129372d
+
+PAR_LOG: 2026-10-19 23:58:59.865 +0300 par_context.cpp:176 Comp 0 confirmed env 2 version 0 part 0
+
+PAR_LOG: 2026-10-19 23:58:59.865 +0300 par_context.cpp:126 forward context 224842880 (p0 v1) from -1 to 0
+
+PAR_LOG: 2026-10-19 23:58:59.867 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 98dbbdde-68794f3e-cc010a7d-fcbb8396 to tcp2://127.0.0.1:25120/matrixnet service ctx@61728 data len: 1048597 (compressed: 722206)
+
+PAR_LOG: 2026-10-19 23:58:59.869 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.869 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 98dbbdde-68794f3e-cc010a7d-fcbb8396 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.869 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 98dbbdde-68794f3e-cc010a7d-fcbb8396
+
+PAR_LOG: 2026-10-19 23:58:59.869 +0300 par_context.cpp:176 Comp 0 confirmed env 224842880 version 1 part 1
+
+PAR_LOG: 2026-10-19 23:58:59.869 +0300 par_context.cpp:126 forward context 224842880 (p0 v1) from -1 to 0
+
+PAR_LOG: 2026-10-19 23:58:59.870 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 47d96954-afee4077-3f8fe9c8-398cd0f0 to tcp2://127.0.0.1:25120/matrixnet service ctx@61728 data len: 1048597 (compressed: 371479)
+
+PAR_LOG: 2026-10-19 23:58:59.871 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.871 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 47d96954-afee4077-3f8fe9c8-398cd0f0 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.871 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 47d96954-afee4077-3f8fe9c8-398cd0f0
+
+PAR_LOG: 2026-10-19 23:58:59.871 +0300 par_context.cpp:176 Comp 0 confirmed env 224842880 version 1 part 4
+
+PAR_LOG: 2026-10-19 23:58:59.871 +0300 par_context.cpp:126 forward context 2 (p1 v0) from -1 to 1
+
+PAR_LOG: 2026-10-19 23:58:59.871 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 24ab6ca2-80ca8fd5-aa7f4029-1cba3e7e to tcp2://127.0.0.1:25121/matrixnet service ctx@61728 data len: 41 (compressed: 41)
+
+PAR_LOG: 2026-10-19 23:58:59.872 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.872 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 24ab6ca2-80ca8fd5-aa7f4029-1cba3e7e service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.872 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 24ab6ca2-80ca8fd5-aa7f4029-1cba3e7e
+
+PAR_LOG: 2026-10-19 23:58:59.872 +0300 par_context.cpp:176 Comp 1 confirmed env 2 version 0 part 0
+
+PAR_LOG: 2026-10-19 23:58:59.872 +0300 par_context.cpp:126 forward context 224842880 (p0 v1) from -1 to 0
+
+PAR_LOG: 2026-10-19 23:58:59.873 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 76e78592-dbb1b411-a3eb57cb-8baaac33 to tcp2://127.0.0.1:25120/matrixnet service ctx@61728 data len: 1048597 (compressed: 697083)
+
+PAR_LOG: 2026-10-19 23:58:59.875 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.875 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 76e78592-dbb1b411-a3eb57cb-8baaac33 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.875 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 76e78592-dbb1b411-a3eb57cb-8baaac33
+
+PAR_LOG: 2026-10-19 23:58:59.875 +0300 par_context.cpp:176 Comp 0 confirmed env 224842880 version 1 part 2
+
+PAR_LOG: 2026-10-19 23:58:59.875 +0300 par_context.cpp:126 forward context 224842880 (p1 v0) from -1 to 1
+
+PAR_LOG: 2026-10-19 23:58:59.875 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 79666ba7-7a3082fa-86b2d29a-c503c044 to tcp2://127.0.0.1:25121/matrixnet service ctx@61728 data len: 41 (compressed: 41)
+
+PAR_LOG: 2026-10-19 23:58:59.875 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.875 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 79666ba7-7a3082fa-86b2d29a-c503c044 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.875 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 79666ba7-7a3082fa-86b2d29a-c503c044
+
+PAR_LOG: 2026-10-19 23:58:59.875 +0300 par_context.cpp:126 forward context 224842880 (p0 v1) from -1 to 0
+
+PAR_LOG: 2026-10-19 23:58:59.876 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 1df8d811-2302beb7-4cacb3-cbf2b604 to tcp2://127.0.0.1:25120/matrixnet service ctx@61728 data len: 583175 (compressed: 168162)
+
+PAR_LOG: 2026-10-19 23:58:59.877 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.877 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 1df8d811-2302beb7-4cacb3-cbf2b604 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.877 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 1df8d811-2302beb7-4cacb3-cbf2b604
+
+PAR_LOG: 2026-10-19 23:58:59.877 +0300 par_context.cpp:176 Comp 0 confirmed env 224842880 version 1 part 5
+
+PAR_LOG: 2026-10-19 23:58:59.877 +0300 par_context.cpp:126 forward context 224842880 (p0 v1) from -1 to 0
+
+PAR_LOG: 2026-10-19 23:58:59.878 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 8ce0dba3-76339c1-4447aebd-687c09b7 to tcp2://127.0.0.1:25120/matrixnet service ctx@61728 data len: 1048597 (compressed: 821377)
+
+PAR_LOG: 2026-10-19 23:58:59.879 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.879 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 8ce0dba3-76339c1-4447aebd-687c09b7 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.879 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 8ce0dba3-76339c1-4447aebd-687c09b7
+
+PAR_LOG: 2026-10-19 23:58:59.879 +0300 par_context.cpp:176 Comp 0 confirmed env 224842880 version 1 part 0
+
+PAR_LOG: 2026-10-19 23:58:59.879 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 3a0bde98-1eba3fdb-794a6600-85551528 to tcp2://127.0.0.1:25120/matrixnet service ctx_free@61728 data len: 4 (compressed: 4)
+
+PAR_LOG: 2026-10-19 23:58:59.884 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.884 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 3a0bde98-1eba3fdb-794a6600-85551528 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.884 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 3a0bde98-1eba3fdb-794a6600-85551528
+
+PAR_LOG: 2026-10-19 23:58:59.890 +0300 par_context.cpp:126 forward context 224842880 (p1 v1) from -1 to 1
+
+PAR_LOG: 2026-10-19 23:58:59.891 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request d1ce0119-32555d67-599f7582-8ae7f65c to tcp2://127.0.0.1:25121/matrixnet service ctx@61728 data len: 1048597 (compressed: 696627)
+
+PAR_LOG: 2026-10-19 23:58:59.895 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.895 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request d1ce0119-32555d67-599f7582-8ae7f65c service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.895 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId d1ce0119-32555d67-599f7582-8ae7f65c
+
+PAR_LOG: 2026-10-19 23:58:59.895 +0300 par_context.cpp:176 Comp 1 confirmed env 224842880 version 1 part 2
+
+PAR_LOG: 2026-10-19 23:58:59.895 +0300 par_context.cpp:126 forward context 224842880 (p1 v1) from -1 to 1
+
+PAR_LOG: 2026-10-19 23:58:59.896 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 49b398-ff5895d9-b5f56bda-af016d1e to tcp2://127.0.0.1:25121/matrixnet service ctx@61728 data len: 583175 (compressed: 167652)
+
+PAR_LOG: 2026-10-19 23:58:59.897 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.897 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 49b398-ff5895d9-b5f56bda-af016d1e service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.897 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 49b398-ff5895d9-b5f56bda-af016d1e
+
+PAR_LOG: 2026-10-19 23:58:59.897 +0300 par_context.cpp:176 Comp 1 confirmed env 224842880 version 1 part 5
+
+PAR_LOG: 2026-10-19 23:58:59.897 +0300 par_context.cpp:126 forward context 224842880 (p1 v1) from -1 to 1
+
+PAR_LOG: 2026-10-19 23:58:59.898 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request b0e4f617-ec06064f-69027dc5-1b6a2bbe to tcp2://127.0.0.1:25121/matrixnet service ctx@61728 data len: 1048597 (compressed: 420642)
+
+PAR_LOG: 2026-10-19 23:58:59.900 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.900 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request b0e4f617-ec06064f-69027dc5-1b6a2bbe service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.900 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId b0e4f617-ec06064f-69027dc5-1b6a2bbe
+
+PAR_LOG: 2026-10-19 23:58:59.900 +0300 par_context.cpp:176 Comp 1 confirmed env 224842880 version 1 part 3
+
+PAR_LOG: 2026-10-19 23:58:59.900 +0300 par_context.cpp:126 forward context 224842880 (p1 v1) from -1 to 1
+
+PAR_LOG: 2026-10-19 23:58:59.901 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 72931f9c-a2a7c6a3-e975e7d6-b4226b00 to tcp2://127.0.0.1:25121/matrixnet service ctx@61728 data len: 1048597 (compressed: 821377)
+
+PAR_LOG: 2026-10-19 23:58:59.903 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.903 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 72931f9c-a2a7c6a3-e975e7d6-b4226b00 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.903 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 72931f9c-a2a7c6a3-e975e7d6-b4226b00
+
+PAR_LOG: 2026-10-19 23:58:59.903 +0300 par_context.cpp:176 Comp 1 confirmed env 224842880 version 1 part 0
+
+PAR_LOG: 2026-10-19 23:58:59.903 +0300 par_context.cpp:126 forward context 224842880 (p1 v1) from -1 to 1
+
+PAR_LOG: 2026-10-19 23:58:59.904 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 21354d75-7dc02095-b134f031-88b9a94d to tcp2://127.0.0.1:25121/matrixnet service ctx@61728 data len: 1048597 (compressed: 721203)
+
+PAR_LOG: 2026-10-19 23:58:59.906 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.906 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 21354d75-7dc02095-b134f031-88b9a94d service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.906 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 21354d75-7dc02095-b134f031-88b9a94d
+
+PAR_LOG: 2026-10-19 23:58:59.906 +0300 par_context.cpp:176 Comp 1 confirmed env 224842880 version 1 part 1
+
+PAR_LOG: 2026-10-19 23:58:59.906 +0300 par_context.cpp:126 forward context 224842880 (p1 v1) from -1 to 1
+
+PAR_LOG: 2026-10-19 23:58:59.907 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 55ca115a-21963e07-4dab88fa-225ce37c to tcp2://127.0.0.1:25121/matrixnet service ctx@61728 data len: 1048597 (compressed: 372327)
+
+PAR_LOG: 2026-10-19 23:58:59.908 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.908 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 55ca115a-21963e07-4dab88fa-225ce37c service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.908 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 55ca115a-21963e07-4dab88fa-225ce37c
+
+PAR_LOG: 2026-10-19 23:58:59.908 +0300 par_context.cpp:176 Comp 1 confirmed env 224842880 version 1 part 4
+
+PAR_LOG: 2026-10-19 23:58:59.908 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 6ed58b8a-43cfebd-eedaf2f6-d0b40f4 to tcp2://127.0.0.1:25121/matrixnet service ctx_free@61728 data len: 4 (compressed: 4)
+
+PAR_LOG: 2026-10-19 23:58:59.914 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.914 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 6ed58b8a-43cfebd-eedaf2f6-d0b40f4 service: _reply_ data len: 0
+
+PAR_LOG: 2026-10-19 23:58:59.914 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 6ed58b8a-43cfebd-eedaf2f6-d0b40f4
+
+PAR_LOG: 2026-10-19 23:58:59.925 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 2d19b22f-69782262-f6d146b4-b5abf9c1 to tcp2://127.0.0.1:25120/matrixnet service mr@61728 data len: 5135 (compressed: 2731)
+
+PAR_LOG: 2026-10-19 23:58:59.925 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 51395f09-d7ef6a4b-6f7c3663-e2163c7a to tcp2://127.0.0.1:25121/matrixnet service mr@61728 data len: 5135 (compressed: 2738)
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 51395f09-d7ef6a4b-6f7c3663-e2163c7a service: _reply_ data len: 10
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 51395f09-d7ef6a4b-6f7c3663-e2163c7a
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_exec.h:378 Try to reschedule part 0
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 2d19b22f-69782262-f6d146b4-b5abf9c1 service: _reply_ data len: 10
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 2d19b22f-69782262-f6d146b4-b5abf9c1
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_exec.h:322 Cancel req 51395f09-d7ef6a4b-6f7c3663-e2163c7a
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_remote.cpp:114 At tcp2://abaryaev.local:61728/matrixnet cancel query: 51395f09-d7ef6a4b-6f7c3663-e2163c7a
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_exec.h:322 Cancel req 2d19b22f-69782262-f6d146b4-b5abf9c1
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_remote.cpp:114 At tcp2://abaryaev.local:61728/matrixnet cancel query: 2d19b22f-69782262-f6d146b4-b5abf9c1
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_exec.h:497 Remote maps completed first
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_exec.h:75 Done reduce tasks
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 5285e0d3-9c083315-4dd6ad65-485deefd to tcp2://127.0.0.1:25120/matrixnet service mr@61728 data len: 96 (compressed: 96)
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 5f24530a-895dc3ea-b8a7381c-8ea8b4ac to tcp2://127.0.0.1:25121/matrixnet service mr@61728 data len: 96 (compressed: 96)
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 5f24530a-895dc3ea-b8a7381c-8ea8b4ac service: _reply_ data len: 10
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 5f24530a-895dc3ea-b8a7381c-8ea8b4ac
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_exec.h:378 Try to reschedule part 0
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 5285e0d3-9c083315-4dd6ad65-485deefd service: _reply_ data len: 10
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 5285e0d3-9c083315-4dd6ad65-485deefd
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_exec.h:322 Cancel req 5f24530a-895dc3ea-b8a7381c-8ea8b4ac
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_remote.cpp:114 At tcp2://abaryaev.local:61728/matrixnet cancel query: 5f24530a-895dc3ea-b8a7381c-8ea8b4ac
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_exec.h:322 Cancel req 5285e0d3-9c083315-4dd6ad65-485deefd
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_remote.cpp:114 At tcp2://abaryaev.local:61728/matrixnet cancel query: 5285e0d3-9c083315-4dd6ad65-485deefd
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_exec.h:497 Remote maps completed first
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_exec.h:75 Done reduce tasks
+
+PAR_LOG: 2026-10-19 23:58:59.926 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 7ee49795-ad95312b-cdd9c3d5-3c1db914 to tcp2://127.0.0.1:25120/matrixnet service mr@61728 data len: 96 (compressed: 96)
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 8b515c3a-ff452fc4-fb74d0d4-39c25daf to tcp2://127.0.0.1:25121/matrixnet service mr@61728 data len: 96 (compressed: 96)
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 7ee49795-ad95312b-cdd9c3d5-3c1db914 service: _reply_ data len: 10
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 7ee49795-ad95312b-cdd9c3d5-3c1db914
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_exec.h:378 Try to reschedule part 1
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 8b515c3a-ff452fc4-fb74d0d4-39c25daf service: _reply_ data len: 10
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 8b515c3a-ff452fc4-fb74d0d4-39c25daf
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_exec.h:322 Cancel req 8b515c3a-ff452fc4-fb74d0d4-39c25daf
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_remote.cpp:114 At tcp2://abaryaev.local:61728/matrixnet cancel query: 8b515c3a-ff452fc4-fb74d0d4-39c25daf
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_exec.h:322 Cancel req 7ee49795-ad95312b-cdd9c3d5-3c1db914
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_remote.cpp:114 At tcp2://abaryaev.local:61728/matrixnet cancel query: 7ee49795-ad95312b-cdd9c3d5-3c1db914
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_exec.h:497 Remote maps completed first
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_exec.h:75 Done reduce tasks
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 6ecafe57-77e6e1b1-7d4f6666-77ad17f3 to tcp2://127.0.0.1:25120/matrixnet service mr@61728 data len: 96 (compressed: 96)
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 22969dcb-7a3b30a6-7c558729-ba4be7b6 to tcp2://127.0.0.1:25121/matrixnet service mr@61728 data len: 96 (compressed: 96)
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 6ecafe57-77e6e1b1-7d4f6666-77ad17f3 service: _reply_ data len: 10
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 6ecafe57-77e6e1b1-7d4f6666-77ad17f3
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_exec.h:378 Try to reschedule part 1
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 22969dcb-7a3b30a6-7c558729-ba4be7b6 service: _reply_ data len: 10
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 22969dcb-7a3b30a6-7c558729-ba4be7b6
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_exec.h:322 Cancel req 22969dcb-7a3b30a6-7c558729-ba4be7b6
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_remote.cpp:114 At tcp2://abaryaev.local:61728/matrixnet cancel query: 22969dcb-7a3b30a6-7c558729-ba4be7b6
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_exec.h:322 Cancel req 6ecafe57-77e6e1b1-7d4f6666-77ad17f3
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_remote.cpp:114 At tcp2://abaryaev.local:61728/matrixnet cancel query: 6ecafe57-77e6e1b1-7d4f6666-77ad17f3
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_exec.h:497 Remote maps completed first
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_exec.h:75 Done reduce tasks
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request bab522d4-5408e189-90e5be89-207b87e to tcp2://127.0.0.1:25120/matrixnet service mr@61728 data len: 96 (compressed: 96)
+
+PAR_LOG: 2026-10-19 23:58:59.927 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 7cfd2951-df3ddb8b-26aaaaa-f3448d35 to tcp2://127.0.0.1:25121/matrixnet service mr@61728 data len: 96 (compressed: 96)
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request bab522d4-5408e189-90e5be89-207b87e service: _reply_ data len: 17
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId bab522d4-5408e189-90e5be89-207b87e
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_exec.h:378 Try to reschedule part 1
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_network.cpp:95 At tcp2://abaryaev.local:61728/matrixnet incoming req: tcp2 127.0.0.1 matrixnet
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_network.cpp:131 At tcp2://abaryaev.local:61728/matrixnet got request 7cfd2951-df3ddb8b-26aaaaa-f3448d35 service: _reply_ data len: 17
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_remote.cpp:442 At tcp2://abaryaev.local:61728/matrixnet Got reply for redId 7cfd2951-df3ddb8b-26aaaaa-f3448d35
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_exec.h:322 Cancel req 7cfd2951-df3ddb8b-26aaaaa-f3448d35
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_remote.cpp:114 At tcp2://abaryaev.local:61728/matrixnet cancel query: 7cfd2951-df3ddb8b-26aaaaa-f3448d35
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_exec.h:322 Cancel req bab522d4-5408e189-90e5be89-207b87e
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_remote.cpp:114 At tcp2://abaryaev.local:61728/matrixnet cancel query: bab522d4-5408e189-90e5be89-207b87e
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_exec.h:497 Remote maps completed first
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_exec.h:75 Done reduce tasks
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request 85b99eb0-13cd613a-64f226a5-868f4015 to tcp2://127.0.0.1:25120/matrixnet service mr@61728 data len: 9568 (compressed: 1628)
+
+PAR_LOG: 2026-10-19 23:58:59.928 +0300 par_network.cpp:317 From tcp2://abaryaev.local:61728/matrixnet sending request cbe994c2-55febdb6-f9ead05f-df250228 to tcp2://127.0.0.1:25121/matrixnet service mr@61728 data len: 9203 (compressed: 1577)
+
+PAR_LOG: 2026-10-19 23:59:01.785 +0300 par_network.cpp:226 From tcp2://abaryaev.local:61728/matrixnetPinging 2 hosts
+
+PAR_LOG: 2026-10-19 23:59:01.785 +0300 par_network.cpp:319 From tcp2://abaryaev.local:61728/matrixnet sending empty request 9890f456-fa6dfc8a-91139059-9fad7747 to tcp2://127.0.0.1:25121/matrixnet service _ping_
+
+PAR_LOG: 2026-10-19 23:59:01.786 +0300 par_network.cpp:319 From tcp2://abaryaev.local:61728/matrixnet sending empty request 9890f456-fa6dfc8a-91139059-9fad7747 to tcp2://127.0.0.1:25120/matrixnet service _ping_
+
+VERIFY failed (2026-10-19T23:59:01.801115+0300): got unexpected network error, no retries rest
+  library/cpp/par/par_network.cpp:187
+  MultiClientThreadLoopFunction(): requirement false failed
+NPrivate::InternalPanicImpl(int, char const*, char const*, int, int, int, TBasicStringBuf<char, std::__y1::char_traits<char>>, char const*, unsigned long)+584 (0x102FD27FC)
+NPrivate::Panic(NPrivate::TStaticBuf const&, int, char const*, char const*, char const*, ...)+220 (0x102FCB220)
+NPar::TNehRequester::MultiClientThreadLoopFunction()+3092 (0x10364C98C)
+(anonymous namespace)::TThreadFactoryFuncObj::DoExecute()+36 (0x102FD88F0)
+(anonymous namespace)::TSystemThreadFactory::TPoolThread::ThreadProc(void*)+20 (0x102FD8BE8)
+(anonymous namespace)::TPosixThread::ThreadProxy(void*)+76 (0x102FD47B0)
+_pthread_start+136 (0x184D43C58)
