@@ -1,5 +1,13 @@
 <img src=http://storage.mds.yandex.net/get-devtools-opensource/250854/catboost-logo.png width=300/>
 
+## CPU-инференс CatBoost с CTR: оптимизация и НИР
+
+Эта ветка содержит оптимизацию CPU-инференса CatBoost с категориальными статистиками (CTR) и отчёт о НИР.
+
+- **Отчёт НИР (PDF):** [research/NIR_CatBoost_CTR.pdf](research/NIR_CatBoost_CTR.pdf)
+- **Код:** `catboost/libs/model/static_ctr_provider.h`, `catboost/libs/model/static_ctr_provider.cpp`; тесты `catboost/libs/model/ut/formula_evaluator_ut.cpp`
+- **Распределённое обучение (майлстоуны):** ветка `labs/distributed-machine-learning`, папка `labs/distributed-ml/`
+
 [Website](https://catboost.ai) |
 [Documentation](https://catboost.ai/docs/) |
 [Tutorials](https://catboost.ai/docs/concepts/tutorials.html) |
