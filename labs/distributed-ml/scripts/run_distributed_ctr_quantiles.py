@@ -21,7 +21,7 @@ RUN = ROOT / "results/stage3/distributed_ctr_quantiles_20261107"
 BIN = Path(os.environ.get("CTR_BENCH_BIN_DIR", str(ROOT / "bin"))).expanduser().resolve()
 AMAZON = INPUT_ROOT / "results/stage2/amazon_ctr_spark_mapped_20261107"
 CRITEO = INPUT_ROOT / "results/stage2/criteo_x1_ctr_spark2_20261107"
-CRITEO_POOL = Path(os.environ.get("CTR_CRITEO_POOL", "/private/tmp/criteo_x1_holdout_4cat_20261107.dsv"))
+CRITEO_POOL = Path(os.environ.get("CTR_CRITEO_POOL", str(ROOT / "tmp/criteo_x1_holdout_4cat_20261107.dsv")))
 CRITEO_POOL_SHA256 = "4c58bae2c4fc1dfec20455d414fda613b5a5a921e81895196576024f233071f4"
 MODELS = {
     **{

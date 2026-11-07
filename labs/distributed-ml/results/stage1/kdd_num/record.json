@@ -12,10 +12,10 @@
   "startup_s": 0.0,
   "total_wall_s": 0.799,
   "exit_code": 0,
-  "model": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/kdd_num/model.cbm",
+  "model": "results/stage1/kdd_num/model.cbm",
   "model_sha256": "66fb819f3a77a361eb264a669388208119e5726375df2dbba68b257293c20cf8",
   "model_bytes": 237272,
-  "fit_log": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/kdd_num/fit.log",
+  "fit_log": "results/stage1/kdd_num/fit.log",
   "worker_logs": [],
   "quality": {
     "iter": 199.0,
@@ -25,7 +25,7 @@
   },
   "structure": {
     "model": "model.cbm",
-    "model_path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/kdd_num/model.cbm",
+    "model_path": "results/stage1/kdd_num/model.cbm",
     "ctr_features": 0,
     "ctr_tables": 0,
     "projections": 0,

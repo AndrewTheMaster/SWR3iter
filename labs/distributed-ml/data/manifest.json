@@ -4,7 +4,7 @@
   "layout": "target first, then features; one CD per dataset",
   "datasets": {
     "amazon": {
-      "source": "/Users/a.baryaev/Documents/itmo/SRW2iter/data/amazon_employee_access.csv",
+      "source": "SRW2iter/data/amazon_employee_access.csv",
       "split_rule": "random.Random(20260928).shuffle 75/25",
       "rows": {
         "train": 24577,

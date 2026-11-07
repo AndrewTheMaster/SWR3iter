@@ -1,5 +1,6 @@
 data/*
 !data/manifest.json
+tmp/
 results/stage3/distributed_ctr_quantiles_20261107/raw/
 results/stage3/distributed_ctr_quantiles_20261107/report.md
 *.cbm

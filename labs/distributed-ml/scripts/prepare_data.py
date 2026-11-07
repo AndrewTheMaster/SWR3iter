@@ -19,10 +19,13 @@ import argparse
 import csv
 import hashlib
 import json
+import os
 import random
 from pathlib import Path
 
-SRW2 = Path('/Users/a.baryaev/Documents/itmo/SRW2iter')
+# Sibling project with the raw datasets and the previous stage's splits.
+# Defaults to ../SRW2iter next to the repository; override with SRW2_ROOT.
+SRW2 = Path(os.environ.get('SRW2_ROOT', Path(__file__).resolve().parents[4] / 'SRW2iter'))
 CROSS = SRW2 / 'results/local/cross-dataset-20260928'
 AMAZON_CSV = SRW2 / 'data/amazon_employee_access.csv'
 SEED = 20260928
@@ -70,7 +73,7 @@ def amazon(out: Path) -> dict:
     ho_pos = emit('holdout', holdout_idx)
     write_cd(out / 'train.cd', 0, len(header) - 1)
     return {
-        'source': str(AMAZON_CSV),
+        'source': 'SRW2iter/data/amazon_employee_access.csv',
         'split_rule': f'random.Random({SEED}).shuffle 75/25',
         'rows': {'train': len(train_idx), 'holdout': len(holdout_idx)},
         'positives': {'train': tr_pos, 'holdout': ho_pos},

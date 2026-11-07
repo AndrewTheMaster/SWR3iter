@@ -5,32 +5,32 @@
   "machine": "arm64",
   "binaries": {
     "stock": {
-      "path": "/Users/a.baryaev/Documents/itmo/SRW2iter/results/local/percentile-latency-20261026/bin/stock",
+      "path": "SRW2iter/results/local/percentile-latency-20261026/bin/stock",
       "sha256": "d6dc40c2c6862be48bf9883b5b01efc6bdfe9c727120af78a035ebd9950ca725",
-      "manifest": "/Users/a.baryaev/Documents/itmo/SRW2iter/results/local/percentile-latency-20261026/bin/stock.manifest.json",
+      "manifest": "SRW2iter/results/local/percentile-latency-20261026/bin/stock.manifest.json",
       "manifest_sha256": "6f2a2c03e54c68f7aadf578f7818b5c2b545a12157e11f55851900dbbf38d169"
     },
     "production": {
-      "path": "/Users/a.baryaev/Documents/itmo/SRW2iter/results/local/percentile-latency-20261026/bin/production",
+      "path": "SRW2iter/results/local/percentile-latency-20261026/bin/production",
       "sha256": "088bab0a33611022f11188a52cd2840ee1fa8a062a1f4aabb0d7e21fef75d363",
-      "manifest": "/Users/a.baryaev/Documents/itmo/SRW2iter/results/local/percentile-latency-20261026/bin/production.manifest.json",
+      "manifest": "SRW2iter/results/local/percentile-latency-20261026/bin/production.manifest.json",
       "manifest_sha256": "866f369a45b7379e28a7ca5e5f81fb65ff9ccae856f44701434ec26b9ffce4b0"
     }
   },
   "models": {
     "amazon_ctr_1w": {
       "model": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage2/amazon_ctr_spark_mapped_20261107/1w/model.cbm",
+        "path": "results/stage2/amazon_ctr_spark_mapped_20261107/1w/model.cbm",
         "sha256": "0b920af506b62a5bd6d4b396aff55c7d5b46d3f6f8a404e59a4f6ca0e6f93833",
         "bytes": 588792
       },
       "pool": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage2/amazon_ctr_spark_mapped_20261107/1w/holdout_indexed.tsv",
+        "path": "results/stage2/amazon_ctr_spark_mapped_20261107/1w/holdout_indexed.tsv",
         "sha256": "6e709cc5351922013f91d4d702ad8706c432a37af2c24486f07cba7354c3b842",
         "bytes": 233245
       },
       "cd": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage2/amazon_ctr_spark_mapped_20261107/1w/holdout_indexed.cd",
+        "path": "results/stage2/amazon_ctr_spark_mapped_20261107/1w/holdout_indexed.cd",
         "sha256": "0d1e1aaea3e0e51052488949a9ad19cfa9d6af190bd4a746c4d03f095a0edff3",
         "bytes": 81
       },
@@ -40,17 +40,17 @@
     },
     "amazon_ctr_2w": {
       "model": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage2/amazon_ctr_spark_mapped_20261107/2w/model.cbm",
+        "path": "results/stage2/amazon_ctr_spark_mapped_20261107/2w/model.cbm",
         "sha256": "ca2dcc79a901699424e13b95e2f9d3fb151614df4b860d37ff181df21578fcc0",
         "bytes": 830936
       },
       "pool": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage2/amazon_ctr_spark_mapped_20261107/2w/holdout_indexed.tsv",
+        "path": "results/stage2/amazon_ctr_spark_mapped_20261107/2w/holdout_indexed.tsv",
         "sha256": "6e709cc5351922013f91d4d702ad8706c432a37af2c24486f07cba7354c3b842",
         "bytes": 233245
       },
       "cd": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage2/amazon_ctr_spark_mapped_20261107/2w/holdout_indexed.cd",
+        "path": "results/stage2/amazon_ctr_spark_mapped_20261107/2w/holdout_indexed.cd",
         "sha256": "0d1e1aaea3e0e51052488949a9ad19cfa9d6af190bd4a746c4d03f095a0edff3",
         "bytes": 81
       },
@@ -60,17 +60,17 @@
     },
     "amazon_ctr_4w": {
       "model": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage2/amazon_ctr_spark_mapped_20261107/4w/model.cbm",
+        "path": "results/stage2/amazon_ctr_spark_mapped_20261107/4w/model.cbm",
         "sha256": "d701999fb621e68327c5047cae28f133fac099c4531183c826d55043e3485dbb",
         "bytes": 597596
       },
       "pool": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage2/amazon_ctr_spark_mapped_20261107/4w/holdout_indexed.tsv",
+        "path": "results/stage2/amazon_ctr_spark_mapped_20261107/4w/holdout_indexed.tsv",
         "sha256": "6e709cc5351922013f91d4d702ad8706c432a37af2c24486f07cba7354c3b842",
         "bytes": 233245
       },
       "cd": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage2/amazon_ctr_spark_mapped_20261107/4w/holdout_indexed.cd",
+        "path": "results/stage2/amazon_ctr_spark_mapped_20261107/4w/holdout_indexed.cd",
         "sha256": "0d1e1aaea3e0e51052488949a9ad19cfa9d6af190bd4a746c4d03f095a0edff3",
         "bytes": 81
       },
@@ -80,17 +80,17 @@
     },
     "criteo_ctr_2w": {
       "model": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage2/criteo_x1_ctr_spark2_20261107/model.cbm",
+        "path": "results/stage2/criteo_x1_ctr_spark2_20261107/model.cbm",
         "sha256": "ca2c23237ef2b6eb093af11775c1f0cf38d12d12aea2ab93448f5b1cb1f53485",
         "bytes": 23415516
       },
       "pool": {
-        "path": "/private/tmp/criteo_x1_holdout_4cat_20261107.dsv",
+        "path": "tmp/criteo_x1_holdout_4cat_20261107.dsv",
         "sha256": "4c58bae2c4fc1dfec20455d414fda613b5a5a921e81895196576024f233071f4",
         "bytes": 162036597
       },
       "cd": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage2/criteo_x1_ctr_spark2_20261107/selected.cd",
+        "path": "results/stage2/criteo_x1_ctr_spark2_20261107/selected.cd",
         "sha256": "644a7f9a974f9c7f2748dcc21fbb907f3c94edebdba573503eea4948f70c1a2a",
         "bytes": 127
       },
@@ -100,17 +100,17 @@
     },
     "amazon_noctr_2w": {
       "model": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage2/amazon_onehot_dist2/model.cbm",
+        "path": "results/stage2/amazon_onehot_dist2/model.cbm",
         "sha256": "c4e051f7c22be26fdc36e6c13626488573575978de50cd35ddd265488902ef8b",
         "bytes": 231512
       },
       "pool": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/data/amazon/holdout.tsv",
+        "path": "data/amazon/holdout.tsv",
         "sha256": "06529e1abb29d86feac8a1729911b9072ab3eaf3c5071666858110f400f53bee",
         "bytes": 509517
       },
       "cd": {
-        "path": "/Users/a.baryaev/Documents/itmo/Distributet ML/data/amazon/train.cd",
+        "path": "data/amazon/train.cd",
         "sha256": "0d1e1aaea3e0e51052488949a9ad19cfa9d6af190bd4a746c4d03f095a0edff3",
         "bytes": 81
       },

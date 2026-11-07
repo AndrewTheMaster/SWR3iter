@@ -1,7 +1,7 @@
 [
   {
     "model": "model.cbm",
-    "model_path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/criteo_num/model.cbm",
+    "model_path": "results/stage1/criteo_num/model.cbm",
     "ctr_features": 0,
     "ctr_tables": 0,
     "projections": 0,

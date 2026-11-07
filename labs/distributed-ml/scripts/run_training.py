@@ -23,7 +23,8 @@ import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CATBOOST = Path('/Users/a.baryaev/Documents/itmo/SWR3iter/build/Release/catboost/app/catboost')
+# Built from the repository root (cmake --build build); override with CATBOOST_BIN.
+CATBOOST = Path(os.environ.get('CATBOOST_BIN', ROOT.parents[1] / 'build/Release/catboost/app/catboost'))
 STRUCTURE = ROOT / 'scripts/structure.py'
 DATA = ROOT / 'data'
 RESULTS = ROOT / 'results'

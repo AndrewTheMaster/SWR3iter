@@ -9,7 +9,7 @@
   "fit_seconds": 22.571066541,
   "model_sha256": "d701999fb621e68327c5047cae28f133fac099c4531183c826d55043e3485dbb",
   "ctr_count": 22,
-  "native_model": "/private/tmp/spark_amazon_ctr_4w_final_20261107/model.cbm",
+  "native_model": "tmp/spark_amazon_ctr_4w_final_20261107/model.cbm",
   "train_sha256": "1e5509abf8fe8d2262a7ecc75b622c9039234521e7d0456c1597a32ef8ea5778",
   "cd_sha256": "0d1e1aaea3e0e51052488949a9ad19cfa9d6af190bd4a746c4d03f095a0edff3",
   "holdout_rows": 8192,

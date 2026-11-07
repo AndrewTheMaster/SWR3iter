@@ -17,10 +17,10 @@
   "startup_s": 0.0,
   "total_wall_s": 0.913,
   "exit_code": 0,
-  "model": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/amazon_onehot/model.cbm",
+  "model": "results/stage1/amazon_onehot/model.cbm",
   "model_sha256": "9170cd6862376adf796710dea460a3564ba8b9c2c1f2001db3ec0bcecd397906",
   "model_bytes": 231240,
-  "fit_log": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/amazon_onehot/fit.log",
+  "fit_log": "results/stage1/amazon_onehot/fit.log",
   "worker_logs": [],
   "quality": {
     "iter": 199.0,
@@ -30,7 +30,7 @@
   },
   "structure": {
     "model": "model.cbm",
-    "model_path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/amazon_onehot/model.cbm",
+    "model_path": "results/stage1/amazon_onehot/model.cbm",
     "ctr_features": 0,
     "ctr_tables": 0,
     "projections": 0,

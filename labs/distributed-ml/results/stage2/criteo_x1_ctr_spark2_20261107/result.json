@@ -6,7 +6,7 @@
   "executor_count_observed": 2,
   "spark_master": "local-cluster[2,1,4096]",
   "train_rows": 10000000,
-  "source_path": "/private/tmp/ctr_spark_data_20261107/criteo_x1/train_ctr.dsv",
+  "source_path": "tmp/ctr_spark_data_20261107/criteo_x1/train_ctr.dsv",
   "limit_rows": 0,
   "numeric_features": 13,
   "nominal_features": 4,

@@ -12,10 +12,10 @@
   "startup_s": 0.0,
   "total_wall_s": 1.705,
   "exit_code": 0,
-  "model": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/amazon_ctr/model.cbm",
+  "model": "results/stage1/amazon_ctr/model.cbm",
   "model_sha256": "b33bc2fc42f99692d5d88c3dcb60728f6a08c0274c0445164189564dac137a94",
   "model_bytes": 12194384,
-  "fit_log": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/amazon_ctr/fit.log",
+  "fit_log": "results/stage1/amazon_ctr/fit.log",
   "worker_logs": [],
   "quality": {
     "iter": 199.0,
@@ -25,7 +25,7 @@
   },
   "structure": {
     "model": "model.cbm",
-    "model_path": "/Users/a.baryaev/Documents/itmo/Distributet ML/results/stage1/amazon_ctr/model.cbm",
+    "model_path": "results/stage1/amazon_ctr/model.cbm",
     "ctr_features": 160,
     "ctr_tables": 76,
     "projections": 55,
