@@ -1,0 +1,14 @@
+data/*
+!data/manifest.json
+tmp/
+results/stage3/distributed_ctr_quantiles_20261107/raw/
+results/stage3/distributed_ctr_quantiles_20261107/report.md
+*.cbm
+*.dsv
+*.tsv
+*.log
+__pycache__/
+*.pyc
+
+# stock distributed evidence: keep logs and the TSV summary
+!results/stage2_stock/summary.tsv

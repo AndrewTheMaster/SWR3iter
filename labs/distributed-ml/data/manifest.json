@@ -1,0 +1,84 @@
+{
+  "seed": 20260928,
+  "label_encoding": "0/1",
+  "layout": "target first, then features; one CD per dataset",
+  "datasets": {
+    "amazon": {
+      "source": "SRW2iter/data/amazon_employee_access.csv",
+      "split_rule": "random.Random(20260928).shuffle 75/25",
+      "rows": {
+        "train": 24577,
+        "holdout": 8192
+      },
+      "positives": {
+        "train": 23145,
+        "holdout": 7727
+      },
+      "columns": {
+        "total": 9,
+        "numeric": 0,
+        "categorical": 9,
+        "names": [
+          "RESOURCE",
+          "MGR_ID",
+          "ROLE_ROLLUP_1",
+          "ROLE_ROLLUP_2",
+          "ROLE_DEPTNAME",
+          "ROLE_TITLE",
+          "ROLE_FAMILY_DESC",
+          "ROLE_FAMILY",
+          "ROLE_CODE"
+        ]
+      },
+      "sha256": {
+        "holdout.tsv": "06529e1abb29d86feac8a1729911b9072ab3eaf3c5071666858110f400f53bee",
+        "train.cd": "0d1e1aaea3e0e51052488949a9ad19cfa9d6af190bd4a746c4d03f095a0edff3",
+        "train.tsv": "1e5509abf8fe8d2262a7ecc75b622c9039234521e7d0456c1597a32ef8ea5778"
+      }
+    },
+    "kdd": {
+      "source": "KDD Cup 2009 small, orange_small_train",
+      "split_rule": "fixed previous split: random.Random(20260928).shuffle 75/25",
+      "rows": {
+        "train": 37500,
+        "holdout": 12500
+      },
+      "positives": {
+        "train": 2744,
+        "holdout": 928
+      },
+      "columns": {
+        "total": 230,
+        "numeric": 190,
+        "categorical": 40
+      },
+      "sha256": {
+        "holdout.tsv": "4c6fa3b6132db20e4a528c74014fac788943b9b3dbee988485e241b81c053c73",
+        "train.cd": "cc4c9656a12e76d7d98edaa8313835f25aedcf61f7b6d9ee4103cef98a57d408",
+        "train.tsv": "cbe8801c8358d04d8982acd1d10f65803d8e85255282f291257d80df5e530c2c"
+      }
+    },
+    "criteo": {
+      "source": "Criteo Click Logs sample: train 2015-02-16 (2 shards), holdout 2015-02-23 (1 shard)",
+      "split_rule": "fixed previous split, later day held out",
+      "rows": {
+        "train": 1557838,
+        "holdout": 757695
+      },
+      "positives": {
+        "train": 49736,
+        "holdout": 24946
+      },
+      "columns": {
+        "total": 39,
+        "numeric": 13,
+        "categorical": 26
+      },
+      "sha256": {
+        "holdout.tsv": "fe28be4bb5ff117df63b01dc0a30718331eba3331361cbfc42f69a7ac0b52d80",
+        "train.cd": "60c61594ca9b4c8ea6e94d14faa1310a899ac7db8f542a0c9211e45b0d34e7fb",
+        "train.tsv": "320e3f585215f17449c0003c77b2d2038541d59cf86103ea328ede6fb90fb3f3"
+      }
+    }
+  }
+}
