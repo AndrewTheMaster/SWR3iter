@@ -2,6 +2,7 @@
 
 #include <catboost/libs/data/data_provider_builders.h>
 #include <catboost/libs/model/cpu/evaluator.h>
+#include <catboost/libs/model/hash.h>
 #include <catboost/libs/model/model.h>
 #include <catboost/libs/model/static_ctr_provider.h>
 #include <catboost/libs/train_lib/train_model.h>
@@ -11,10 +12,99 @@
 
 #include <util/generic/ymath.h>
 
+#include <array>
+
 using namespace NCB;
 using namespace NCB::NModelEvaluation;
 
 Y_UNIT_TEST_SUITE(TStaticCtrProviderCache) {
+    Y_UNIT_TEST(RebuildsGroupingWhenProjectionSequenceChangesInPlace) {
+        TStaticCtrProvider provider;
+        TVector<TCatFeature> catFeatures;
+        catFeatures.emplace_back(true, 0, 0, "cat0");
+        catFeatures.emplace_back(true, 1, 1, "cat1");
+        provider.SetupBinFeatureIndexes({}, {}, catFeatures);
+
+        auto makeBase = [](int feature) {
+            TModelCtrBase base;
+            base.CtrType = ECtrType::Counter;
+            base.Projection.CatFeatures.push_back(feature);
+            return base;
+        };
+        const auto pBase = makeBase(0);
+        const auto qBase = makeBase(1);
+        auto makeTable = [](const TModelCtrBase& base, ui32 key, int count) {
+            TCtrValueTable table;
+            table.ModelCtrBase = base;
+            table.CounterDenominator = 4;
+            table.TargetClassesCount = 1;
+            auto builder = table.GetIndexHashBuilder(1);
+            auto blob = table.AllocateBlobAndGetArrayRef<int>(1);
+            blob[builder.AddIndex(CalcHash(0ull, static_cast<ui64>(key)))] = count;
+            return table;
+        };
+        auto addTables = [&](TStaticCtrProvider& target) {
+            target.AddCtrCalcerData(makeTable(pBase, 101, 1));
+            target.AddCtrCalcerData(makeTable(qBase, 202, 2));
+        };
+        addTables(provider);
+
+        TModelCtr p0;
+        p0.Base = pBase;
+        TModelCtr p1 = p0;
+        p1.PriorNum = 1;
+        TModelCtr q0;
+        q0.Base = qBase;
+        TModelCtr q1 = q0;
+        q1.PriorNum = 1;
+        UNIT_ASSERT(p0 < p1 && p1 < q0 && q0 < q1);
+
+        // Feature-major: each feature has a known key followed by a missing key.
+        const TVector<ui32> hashed = {101, 102, 202, 203};
+        const TVector<ui8> binarized;
+        TVector<TModelCtr> needed(3);
+        const auto* const source = needed.data();
+        const std::array<std::array<TModelCtr, 3>, 4> layouts = {{
+            {{p0, p1, q0}},
+            {{p0, q0, q1}},
+            {{p1, q0, q1}},
+            {{p0, p1, q0}},
+        }};
+        const std::array<size_t, 5> steps = {{0, 0, 1, 2, 3}};
+        const std::array<bool, 5> expectHit = {{false, true, false, true, false}};
+
+        for (size_t step = 0; step < steps.size(); ++step) {
+            const auto& layout = layouts[steps[step]];
+            for (size_t i = 0; i < needed.size(); ++i) {
+                needed[i] = layout[i];
+            }
+            UNIT_ASSERT_VALUES_EQUAL(needed.data(), source);
+            UNIT_ASSERT(needed[0] < needed[1] && needed[1] < needed[2]);
+
+            size_t hitsBefore = 0, missesBefore = 0;
+            size_t hitsAfter = 0, missesAfter = 0;
+            TStaticCtrProvider::GetGroupingCacheStatsForDiagnostics(&hitsBefore, &missesBefore);
+            TVector<float> actual(needed.size() * 2);
+            provider.CalcCtrs(needed, binarized, hashed, 2, MakeArrayRef(actual));
+            TStaticCtrProvider::GetGroupingCacheStatsForDiagnostics(&hitsAfter, &missesAfter);
+            UNIT_ASSERT_VALUES_EQUAL(hitsAfter - hitsBefore, expectHit[step] ? 1 : 0);
+            UNIT_ASSERT_VALUES_EQUAL(missesAfter - missesBefore, expectHit[step] ? 0 : 1);
+
+            // A separately initialised provider recomputes grouping for this layout.
+            TStaticCtrProvider reference;
+            reference.SetupBinFeatureIndexes({}, {}, catFeatures);
+            addTables(reference);
+            TVector<float> fresh(actual.size());
+            reference.CalcCtrs(needed, binarized, hashed, 2, MakeArrayRef(fresh));
+            UNIT_ASSERT_EQUAL(actual, fresh);
+            for (size_t i = 0; i < needed.size(); ++i) {
+                const bool p = needed[i].Base.Projection == pBase.Projection;
+                UNIT_ASSERT_VALUES_EQUAL(actual[i * 2], needed[i].Calc(p ? 1 : 2, 4));
+                UNIT_ASSERT_VALUES_EQUAL(actual[i * 2 + 1], needed[i].Calc(0, 4));
+            }
+        }
+    }
+
     Y_UNIT_TEST(RegistryEvictsOneProviderAtCapacity) {
         // Distinct live providers force misses even if earlier tests left
         // entries in this thread's registry.

@@ -5,6 +5,7 @@
 Эта ветка содержит оптимизацию CPU-инференса CatBoost с категориальными статистиками (CTR) и отчёт о НИР.
 
 - **Отчёт НИР (PDF):** [research/NIR_CatBoost_CTR.pdf](research/NIR_CatBoost_CTR.pdf)
+- **Первичные JSON-измерения НИР:** [research/NIR_EVIDENCE.tar.gz](research/NIR_EVIDENCE.tar.gz) (без датасетов, моделей и бинарников)
 - **Код:** `catboost/libs/model/static_ctr_provider.h`, `catboost/libs/model/static_ctr_provider.cpp`; тесты `catboost/libs/model/ut/formula_evaluator_ut.cpp`
 - **Распределённое обучение (майлстоуны):** ветка `labs/distributed-machine-learning`, папка `labs/distributed-ml/`
 
