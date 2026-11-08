@@ -44,7 +44,7 @@ def main() -> None:
     ax_fit.legend()
     ax_ll.set_xlabel("workers (3 threads each)")
     ax_ll.set_ylabel("holdout Logloss")
-    ax_ll.set_title("Quality stays flat with workers")
+    ax_ll.set_title("Observed Logloss (one fit per point)")
     ax_ll.set_xticks([1, 2, 4])
     ax_ll.legend()
     fig.tight_layout()
