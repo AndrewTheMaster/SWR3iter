@@ -1,0 +1,9 @@
+{
+  "archive": "raw-sessions.tar.gz",
+  "sha256": "4c42be8efbd25195887c1be9f7b5ae92e09500a249a8640dc79dc088b67d2210",
+  "timed_series": 180,
+  "record_files": 180,
+  "timed_calls_per_series": 1000,
+  "expected_cells": 10,
+  "source": "results/stage3/distributed_ctr_quantiles_20261107/raw"
+}
